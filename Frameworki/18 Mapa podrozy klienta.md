@@ -3,6 +3,7 @@ typ: framework
 autor: UX / CX (Service Design)
 etap: Klient / Strona / Wdrożenie
 aktualizacja: 2026-08-07
+źródło: NN/g, „Customer Journey Maps" — https://www.nngroup.com/articles/customer-journey-mapping/
 ---
 
 # Mapa podróży klienta (Customer Journey Map)

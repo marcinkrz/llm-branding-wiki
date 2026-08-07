@@ -3,7 +3,7 @@ typ: framework
 autor: Paweł Tkaczyk (pop. ekonomia sklepu), adaptacja OS
 etap: Rynek / Oferta / Wdrożenie
 aktualizacja: 2026-08-07
-śródlądło: https://paweltkaczyk.com/jak-walczyc-cena-innowacje-w-modelu-biznesowym
+źródło: https://paweltkaczyk.com/jak-walczyc-cena-innowacje-w-modelu-biznesowym
 ---
 
 # Customer Value Chain (CVC) — łańcuch wartości klienta

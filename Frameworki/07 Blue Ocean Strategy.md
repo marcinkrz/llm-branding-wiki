@@ -3,6 +3,7 @@ typ: framework
 autor: W.C. Kim, R. Mauborgne
 etap: Rynek / Pozycjonowanie
 aktualizacja: 2026-08-07
+źródło: W.C. Kim, R. Mauborgne, „Blue Ocean Strategy" — https://www.blueoceanstrategy.com/
 ---
 
 # Blue Ocean Strategy

@@ -3,6 +3,7 @@ typ: framework
 autor: Kahneman-Tversky (framing); komunikacja
 etap: Komunikacja / Oferta
 aktualizacja: 2026-08-07
+źródło: Kahneman, Tversky, „Framing" (1981) — https://en.wikipedia.org/wiki/Framing_(social_sciences)
 ---
 
 # Framing (ramowanie przekazu)

@@ -3,6 +3,7 @@ typ: framework
 autor: Daniel Kahneman
 etap: Komunikacja / Oferta / UX
 aktualizacja: 2026-08-07
+źródło: D. Kahneman, „Thinking, Fast and Slow" — https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow
 ---
 
 # System 1 i System 2 (dwa tryby myślenia)

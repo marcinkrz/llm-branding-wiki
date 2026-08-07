@@ -3,6 +3,7 @@ typ: framework
 autor: Simon Sinek
 etap: Odkrywanie / Fundamenty
 aktualizacja: 2026-08-07
+źródło: S. Sinek, „Start with Why" — https://simonsinek.com/the-golden-circle/
 ---
 
 # Golden Circle (Simon Sinek)

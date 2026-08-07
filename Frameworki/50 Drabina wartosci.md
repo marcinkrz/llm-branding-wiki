@@ -3,6 +3,7 @@ typ: framework
 autor: wartość oferty (Hormozi / sprzedaż skalowana)
 etap: Oferta / Marketing
 aktualizacja: 2026-08-07
+źródło: R. Brunson, „DotCom Secrets" (value ladder) — https://www.amazon.com/DotCom-Secrets-Underground-Habits-Attention/dp/1646873429
 ---
 
 # Drabina wartości (value ladder)

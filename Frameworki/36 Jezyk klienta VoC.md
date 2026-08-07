@@ -3,6 +3,7 @@ typ: framework
 autor: Voice of Customer (VOC, zaawansowana analityka treści)
 etap: Klient / Komunikacja
 aktualizacja: 2026-08-07
+źródło: A. Griffin, J. Hauser, „The Voice of the Customer" (1993) — https://en.wikipedia.org/wiki/Voice_of_the_customer
 ---
 
 # Język klienta / Voice of Customer (VoC)

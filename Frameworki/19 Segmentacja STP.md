@@ -3,6 +3,7 @@ typ: framework
 autor: Marketing klasyczny / Kottler
 etap: Klient / Pozycjonowanie
 aktualizacja: 2026-08-07
+źródło: P. Kotler, „Marketing Management" (STP) — https://en.wikipedia.org/wiki/Marketing_management
 ---
 
 # Segmentacja STP (Segmentacja, Targeting, Pozycjonowanie)

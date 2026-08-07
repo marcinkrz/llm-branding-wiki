@@ -3,6 +3,7 @@ typ: framework
 autor: CRO (conversion rate optimization)
 etap: Walidacja / Strona
 aktualizacja: 2026-08-07
+źródło: praktyka CRO / badania A/B — https://www.optimizely.com/optimization-glossary/ab-testing/
 ---
 
 # CRO i testy A/B (optymalizacja konwersji)

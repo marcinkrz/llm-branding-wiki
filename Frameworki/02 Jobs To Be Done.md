@@ -3,6 +3,7 @@ typ: framework
 autor: Clayton Christensen
 etap: Klient
 aktualizacja: 2026-08-07
+źródło: C.M. Christensen, „Know Your Customers' Jobs to Be Done" (HBR) — https://hbr.org/2016/09/know-your-customers-jobs-to-be-done
 ---
 
 # Jobs To Be Done (JTBD)

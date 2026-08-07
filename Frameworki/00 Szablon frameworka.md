@@ -2,6 +2,7 @@
 typ: szablon
 użycie: karta frameworka
 aktualizacja: 2026-08-07
+źródło: (link do źródła / książki / artykułu, z którego czerpiesz)
 ---
 
 # [NAZWA FRAMEWORKA]

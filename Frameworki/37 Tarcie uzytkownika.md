@@ -3,6 +3,7 @@ typ: framework
 autor: UX / CRO (przekrojowa)
 etap: Strona / UX / Oferta
 aktualizacja: 2026-08-07
+źródło: R. Dooley, „Friction" — https://www.rogerdooley.com/friction-roger-dooley/
 ---
 
 # Tarcie użytkownika (friction)

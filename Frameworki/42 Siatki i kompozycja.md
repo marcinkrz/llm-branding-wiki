@@ -3,6 +3,7 @@ typ: framework
 autor: design system / layout grid
 etap: Design / Strona
 aktualizacja: 2026-08-07
+źródło: grid systems w designie — https://en.wikipedia.org/wiki/Grid_(graphic_design)
 ---
 
 # Siatki i kompozycja (grid)

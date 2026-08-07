@@ -3,6 +3,7 @@ typ: framework
 autor: Al Ries, Jack Trout
 etap: Pozycjonowanie
 aktualizacja: 2026-08-07
+źródło: A. Ries, J. Trout, „Positioning: The Battle for Your Mind" — https://en.wikipedia.org/wiki/Positioning_(marketing)
 ---
 
 # Pozycjonowanie (Ries & Trout)

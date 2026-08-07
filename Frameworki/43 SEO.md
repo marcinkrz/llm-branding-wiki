@@ -3,6 +3,7 @@ typ: framework
 autor: SEO / marketing wyszukiwarek
 etap: Marketing / Treść
 aktualizacja: 2026-08-07
+źródło: Google Search Central — https://developers.google.com/search/docs
 ---
 
 # SEO (widoczność w wyszukiwarce)

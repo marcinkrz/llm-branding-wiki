@@ -3,6 +3,7 @@ typ: framework
 autor: design / UX
 etap: Design / Strona
 aktualizacja: 2026-08-07
+źródło: zasady projektowania graficznego — https://en.wikipedia.org/wiki/Visual_hierarchy
 ---
 
 # Hierarchia wizualna

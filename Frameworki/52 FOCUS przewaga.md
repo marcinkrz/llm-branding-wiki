@@ -3,7 +3,7 @@ typ: framework
 autor: Paweł Tkaczyk (framework autorski, prezentowany na I Love Marketing)
 etap: Pozycjonowanie / Rynek
 aktualizacja: 2026-08-07
-śródlądło: https://paweltkaczyk.com/trendy-w-marketingu-2026
+źródło: https://paweltkaczyk.com/trendy-w-marketingu-2026
 ---
 
 # F.O.C.U.S. — nieuczciwa przewaga konkurencyjna

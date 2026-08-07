@@ -2,6 +2,7 @@
 typ: wiedza
 dziedzina: strategia
 aktualizacja: 2026-08-07
+źródło: D. Aaker; K.L. Keller — https://en.wikipedia.org/wiki/David_Aaker, https://en.wikipedia.org/wiki/Brand_equity
 ---
 
 # Strategia marki

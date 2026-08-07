@@ -3,7 +3,7 @@ typ: framework
 autor: klasyka świadomości marki + Net Promoter Score (Fred Reichheld) + Paweł Tkaczyk (adaptacja)
 etap: Walidacja / Wdrożenie
 aktualizacja: 2026-08-07
-śródlądło: https://paweltkaczyk.com/co-to-jest-marka-jak-stworzyc-marke, https://paweltkaczyk.com/7-sposobow-na-mierzenie-marki-osobistej
+źródło: https://paweltkaczyk.com/co-to-jest-marka-jak-stworzyc-marke, https://paweltkaczyk.com/7-sposobow-na-mierzenie-marki-osobistej
 ---
 
 # Pomiar marki: świadomość + NPS + top-of-mind

@@ -3,6 +3,7 @@ typ: framework
 autor: positioning / market research (perceptual map)
 etap: Pozycjonowanie / Rynek
 aktualizacja: 2026-08-07
+źródło: perceptual mapping (positioning research) — https://en.wikipedia.org/wiki/Perceptual_mapping
 ---
 
 # Mapa percepcyjna (perceptual map)

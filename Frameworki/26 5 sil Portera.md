@@ -3,6 +3,7 @@ typ: framework
 autor: Michael Porter
 etap: Rynek / Konkurencja
 aktualizacja: 2026-08-07
+źródło: M.E. Porter, „The Five Competitive Forces" (HBR) — https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy
 ---
 
 # 5 sił Portera

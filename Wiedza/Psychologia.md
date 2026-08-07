@@ -2,6 +2,7 @@
 typ: wiedza
 dziedzina: psychologia
 aktualizacja: 2026-08-07
+źródło: D. Kahneman; R. Cialdini; J. Haidt — https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow, https://www.influenceatwork.com/
 ---
 
 # Psychologia

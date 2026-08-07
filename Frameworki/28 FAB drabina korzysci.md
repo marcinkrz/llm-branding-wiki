@@ -3,6 +3,7 @@ typ: framework
 autor: copywriting / sprzedaż (klasyka)
 etap: Komunikacja / Oferta
 aktualizacja: 2026-08-07
+źródło: klasyka sprzedaży (FAB) — https://firstsales.io/sales/glossary/fab/
 ---
 
 # FAB i drabina korzyści

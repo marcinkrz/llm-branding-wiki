@@ -2,6 +2,7 @@
 typ: szablon
 etap: 06 Pozycjonowanie
 aktualizacja: 2026-08-07
+źródło: A. Dunford, „Obviously Awesome" — https://www.aprildunford.com/
 ---
 
 # Oświadczenie pozycjonowania

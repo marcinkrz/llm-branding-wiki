@@ -3,6 +3,7 @@ typ: framework
 autor: performance marketing / paid media
 etap: Marketing / Skala
 aktualizacja: 2026-08-07
+źródło: performance / paid media — https://en.wikipedia.org/wiki/Performance-based_advertising
 ---
 
 # Performance marketing (płatne media)

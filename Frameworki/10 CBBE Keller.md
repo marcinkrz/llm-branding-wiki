@@ -3,6 +3,7 @@ typ: framework
 autor: Kevin Lane Keller
 etap: Tożsamość marki / Strategia marki
 aktualizacja: 2026-08-07
+źródło: K.L. Keller, „Strategic Brand Management" — https://en.wikipedia.org/wiki/Brand_equity
 ---
 
 # CBBE — Customer-Based Brand Equity (Keller)

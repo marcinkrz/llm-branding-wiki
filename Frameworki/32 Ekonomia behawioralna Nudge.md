@@ -3,6 +3,7 @@ typ: framework
 autor: Richard Thaler, Cass Sunstein
 etap: Komunikacja / Oferta / UX
 aktualizacja: 2026-08-07
+źródło: R. Thaler, C. Sunstein, „Nudge" — https://en.wikipedia.org/wiki/Nudge_theory
 ---
 
 # Ekonomia behawioralna / Nudge (pchnięcie)

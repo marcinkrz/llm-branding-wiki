@@ -3,6 +3,7 @@ typ: framework
 autor: Alex Hormozi
 etap: Oferta
 aktualizacja: 2026-08-07
+źródło: A. Hormozi, „$100M Offers" — https://www.acquisition.com/
 ---
 
 # Marketing oferty (Alex Hormozi)

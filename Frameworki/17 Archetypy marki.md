@@ -3,6 +3,7 @@ typ: framework
 autor: C. Jung / M. Mark, C. Pearson
 etap: Tożsamość marki
 aktualizacja: 2026-08-07
+źródło: C.G. Jung; M. Mark, C. Pearson, „The Hero and the Outlaw" — https://en.wikipedia.org/wiki/Archetype
 ---
 
 # Archetypy marki (Jung / Mark & Pearson)

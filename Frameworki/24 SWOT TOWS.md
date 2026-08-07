@@ -3,6 +3,7 @@ typ: framework
 autor: Albert Humphrey (klasyka)
 etap: Rynek / Analiza
 aktualizacja: 2026-08-07
+źródło: A. Humphrey (SWOT), H. Weihrich (TOWS) — https://en.wikipedia.org/wiki/SWOT_analysis
 ---
 
 # SWOT / TOWS

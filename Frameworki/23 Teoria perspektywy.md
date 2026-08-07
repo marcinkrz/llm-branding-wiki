@@ -3,6 +3,7 @@ typ: framework
 autor: Kahneman & Tversky
 etap: Komunikacja / Oferta / Cena
 aktualizacja: 2026-08-07
+źródło: D. Kahneman, A. Tversky, „Prospect Theory" (1979) — https://en.wikipedia.org/wiki/Prospect_theory
 ---
 
 # Teoria perspektywy i awersja do straty

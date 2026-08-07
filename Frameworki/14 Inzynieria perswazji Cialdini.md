@@ -3,6 +3,7 @@ typ: framework
 autor: Robert Cialdini
 etap: Komunikacja / Oferta / Zaufanie
 aktualizacja: 2026-08-07
+źródło: R. Cialdini, „Influence: The Psychology of Persuasion" — https://www.influenceatwork.com/
 ---
 
 # Inżynieria perswazji (Robert Cialdini)

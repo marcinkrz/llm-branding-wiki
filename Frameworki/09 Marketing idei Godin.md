@@ -3,6 +3,7 @@ typ: framework
 autor: Seth Godin
 etap: Treść / Komunikacja / Fundamenty
 aktualizacja: 2026-08-07
+źródło: S. Godin, „This Is Marketing" / „Purple Cow" — https://seths.blog/
 ---
 
 # Marketing idei (Seth Godin)

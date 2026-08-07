@@ -3,6 +3,7 @@ typ: framework
 autor: Kahneman, Tversky, Gigerenzer
 etap: Klient / Komunikacja / Oferta
 aktualizacja: 2026-08-07
+źródło: Kahneman, Tversky, Gigerenzer — https://en.wikipedia.org/wiki/List_of_cognitive_biases
 ---
 
 # Heurystyki i błędy poznawcze

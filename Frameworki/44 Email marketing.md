@@ -3,6 +3,7 @@ typ: framework
 autor: email marketing / lejki e-mail
 etap: Marketing / Treść
 aktualizacja: 2026-08-07
+źródło: praktyka email marketingu — https://en.wikipedia.org/wiki/Email_marketing
 ---
 
 # Email marketing / sekwencje

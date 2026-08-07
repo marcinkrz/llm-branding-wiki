@@ -3,6 +3,7 @@ typ: framework
 autor: A. Osterwalder
 etap: Pozycjonowanie / Oferta
 aktualizacja: 2026-08-07
+źródło: A. Osterwalder, „Value Proposition Design" (Strategyzer) — https://www.strategyzer.com/canvas/value-proposition-canvas
 ---
 
 # Value Proposition Canvas (VPC)

@@ -2,6 +2,7 @@
 typ: wiedza
 dziedzina: copywriting
 aktualizacja: 2026-08-07
+źródło: klasyka copywritingu (AIDA, PAS, Sugarman) — https://en.wikipedia.org/wiki/Copywriting
 ---
 
 # Copywriting

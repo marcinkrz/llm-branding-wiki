@@ -3,6 +3,7 @@ typ: framework
 autor: copywriting klasyka (AIDA / PAS)
 etap: Komunikacja / Treść
 aktualizacja: 2026-08-07
+źródło: E. St. Elmo Lewis (AIDA), copywriting (PAS) — https://en.wikipedia.org/wiki/AIDA_(marketing)
 ---
 
 # AIDA i PAS (struktury przekazu sprzedażowego)

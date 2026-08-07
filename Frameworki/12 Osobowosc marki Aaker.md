@@ -3,6 +3,7 @@ typ: framework
 autor: Jennifer Aaker
 etap: Tożsamość marki
 aktualizacja: 2026-08-07
+źródło: J.L. Aaker, „Dimensions of Brand Personality" (JMR 1997) — https://gsb-courses.stanford.edu/building-innovative-brands/wp-content/uploads/sites/25/2022/04/dimensions_of_brand_personality.pdf
 ---
 
 # Osobowość marki (Jennifer Aaker)

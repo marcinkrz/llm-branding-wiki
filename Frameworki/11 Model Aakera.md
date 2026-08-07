@@ -3,6 +3,7 @@ typ: framework
 autor: David Aaker
 etap: Tożsamość marki / Strategia marki
 aktualizacja: 2026-08-07
+źródło: D. Aaker, „Building Strong Brands" — https://en.wikipedia.org/wiki/David_Aaker
 ---
 
 # Model Aakera (Brand Identity + Brand Equity)

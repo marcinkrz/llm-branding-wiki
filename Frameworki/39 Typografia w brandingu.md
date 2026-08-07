@@ -3,6 +3,7 @@ typ: framework
 autor: design / brand typography
 etap: Tożsamość marki / Design
 aktualizacja: 2026-08-07
+źródło: teoria typografii — https://en.wikipedia.org/wiki/Typography
 ---
 
 # Typografia w brandingu

@@ -3,6 +3,7 @@ typ: framework
 autor: Byron Sharp
 etap: Strategia marki / Media
 aktualizacja: 2026-08-07
+źródło: B. Sharp, „How Brands Grow" (Ehrenberg-Bass) — https://marketingscience.info/grow-brand-grow
 ---
 
 # How Brands Grow (Byron Sharp)

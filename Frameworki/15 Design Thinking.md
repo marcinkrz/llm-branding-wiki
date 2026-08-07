@@ -3,6 +3,7 @@ typ: framework
 autor: IDEO / d.school
 etap: Odkrywanie / Walidacja / Innowacja
 aktualizacja: 2026-08-07
+źródło: IDEO, „Design Thinking" — https://designthinking.ideo.com/
 ---
 
 # Design Thinking (IDEO / d.school)

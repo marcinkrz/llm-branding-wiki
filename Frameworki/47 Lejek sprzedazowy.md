@@ -3,6 +3,7 @@ typ: framework
 autor: growth / marketing (funnel)
 etap: Marketing / Wdrożenie
 aktualizacja: 2026-08-07
+źródło: purchase funnel (AIDA) — https://en.wikipedia.org/wiki/Purchase_funnel
 ---
 
 # Lejek sprzedażowy (funnel)

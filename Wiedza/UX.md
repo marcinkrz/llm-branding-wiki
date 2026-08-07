@@ -2,6 +2,7 @@
 typ: wiedza
 dziedzina: ux
 aktualizacja: 2026-08-07
+źródło: NN/g (Nielsen Norman Group) — https://www.nngroup.com/
 ---
 
 # UX

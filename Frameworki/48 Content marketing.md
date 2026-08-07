@@ -3,6 +3,7 @@ typ: framework
 autor: content marketing strategy
 etap: Marketing / Treść
 aktualizacja: 2026-08-07
+źródło: Content Marketing Institute — https://contentmarketinginstitute.com/what-is-content-marketing/
 ---
 
 # Content marketing

@@ -3,6 +3,7 @@ typ: framework
 autor: Marty Neumeier
 etap: Tożsamość marki / Integracja
 aktualizacja: 2026-08-07
+źródło: M. Neumeier, „The Brand Gap" — https://www.martyneumeier.com/
 ---
 
 # The Brand Gap (Marty Neumeier)

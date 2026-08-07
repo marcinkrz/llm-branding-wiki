@@ -3,6 +3,7 @@ typ: framework
 autor: David Maister (Trust Equation), szk. psychologia
 etap: Komunikacja / Oferta / Sprzedaż
 aktualizacja: 2026-08-07
+źródło: D. Maister (Trust Equation), „The Trusted Advisor" — https://trustedadvisor.com/build-trust/trust-equation
 ---
 
 # Psychologia zaufania (Trust Equation)

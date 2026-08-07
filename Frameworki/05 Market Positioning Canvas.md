@@ -3,6 +3,7 @@ typ: framework
 autor: April Dunford
 etap: Pozycjonowanie
 aktualizacja: 2026-08-07
+źródło: A. Dunford, „Obviously Awesome" — https://www.aprildunford.com/
 ---
 
 # Market Positioning Canvas (April Dunford)

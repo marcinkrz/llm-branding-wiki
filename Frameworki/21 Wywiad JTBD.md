@@ -3,6 +3,7 @@ typ: framework
 autor: Bob Moesta / Clayton Christensen
 etap: Klient
 aktualizacja: 2026-08-07
+źródło: B. Moesta, C.M. Christensen, technika wywiadu JTBD — https://hbr.org/2016/09/know-your-customers-jobs-to-be-done
 ---
 
 # Wywiad JTBD (technika badania)

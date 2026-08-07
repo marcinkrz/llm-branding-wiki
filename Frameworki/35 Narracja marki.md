@@ -3,6 +3,7 @@ typ: framework
 autor: storytelling / brand strategy (m.in. StoryBrand, Golden Circle)
 etap: Komunikacja / Treść
 aktualizacja: 2026-08-07
+źródło: D. Miller (StoryBrand); C. Heath, „Made to Stick" — https://en.wikipedia.org/wiki/Made_to_Stick
 ---
 
 # Narracja marki (brand story)

@@ -3,6 +3,7 @@ typ: framework
 autor: social media strategy
 etap: Marketing / Treść
 aktualizacja: 2026-08-07
+źródło: marketing społecznościowy — https://en.wikipedia.org/wiki/Social_media_marketing
 ---
 
 # Strategia social media

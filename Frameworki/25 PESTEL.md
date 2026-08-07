@@ -3,6 +3,7 @@ typ: framework
 autor: klasyka analizy strategicznej
 etap: Rynek / Analiza
 aktualizacja: 2026-08-07
+źródło: klasyczna analiza otoczenia — https://en.wikipedia.org/wiki/PEST_analysis
 ---
 
 # PESTEL (analiza otoczenia)

@@ -2,6 +2,7 @@
 typ: szablon
 etap: 07 Komunikacja
 aktualizacja: 2026-08-07
+źródło: D. Miller, „Building a StoryBrand" — https://www.storybrand.com/
 ---
 
 # StoryBrand (struktura przekazu)

@@ -3,6 +3,7 @@ typ: framework
 autor: komunikacja marki (agencje / brand strategy)
 etap: Komunikacja
 aktualizacja: 2026-08-07
+źródło: praktyka komunikacji/agencje; omówienie — https://umbrex.com/resources/frameworks/marketing-frameworks/message-house-framework/
 ---
 
 # Message House (dom przekazu)

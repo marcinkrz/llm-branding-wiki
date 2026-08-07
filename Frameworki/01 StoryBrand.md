@@ -3,6 +3,7 @@ typ: framework
 autor: Donald Miller
 etap: Komunikacja
 aktualizacja: 2026-08-07
+źródło: Donald Miller, „Building a StoryBrand" — https://www.storybrand.com/
 ---
 
 # StoryBrand

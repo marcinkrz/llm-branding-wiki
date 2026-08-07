@@ -3,6 +3,7 @@ typ: framework
 autor: Nielsen Norman Group
 etap: Strona / UX
 aktualizacja: 2026-08-07
+źródło: J. Nielsen, „10 Usability Heuristics" (NN/g) — https://www.nngroup.com/articles/ten-usability-heuristics/
 ---
 
 # Heurystyki Nielsena (NN/g)

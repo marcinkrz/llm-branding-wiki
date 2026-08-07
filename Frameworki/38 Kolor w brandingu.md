@@ -3,6 +3,7 @@ typ: framework
 autor: design oparty o psychologię marki
 etap: Tożsamość marki / Design
 aktualizacja: 2026-08-07
+źródło: psychologia koloru — https://en.wikipedia.org/wiki/Color_psychology
 ---
 
 # Kolor w brandingu

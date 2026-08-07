@@ -2,6 +2,7 @@
 typ: wiedza
 dziedzina: design
 aktualizacja: 2026-08-07
+źródło: M. Neumeier; zasady typografii i siatek — https://www.martyneumeier.com/, https://en.wikipedia.org/wiki/Grid_(graphic_design)
 ---
 
 # Design

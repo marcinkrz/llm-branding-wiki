@@ -2,6 +2,7 @@
 typ: wiedza
 dziedzina: marketing
 aktualizacja: 2026-08-07
+źródło: P. Kotler; Content Marketing Institute — https://en.wikipedia.org/wiki/Marketing_management, https://contentmarketinginstitute.com/
 ---
 
 # Marketing

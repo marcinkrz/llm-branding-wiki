@@ -3,6 +3,7 @@ typ: framework
 autor: WCAG / design dostępny
 etap: Design / Strona / UX
 aktualizacja: 2026-08-07
+źródło: WCAG 2.1, „Contrast Minimum" (W3C) — https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html
 ---
 
 # Kontrast i dostępność (WCAG)

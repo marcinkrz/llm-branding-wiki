@@ -2,7 +2,7 @@
 typ: szablon
 etap: 08/09 Oferta-Tożsamość
 aktualizacja: 2026-08-07
-śródlądło: https://paweltkaczyk.com/co-to-jest-marka-jak-stworzyc-marke
+źródło: https://paweltkaczyk.com/co-to-jest-marka-jak-stworzyc-marke
 ---
 
 # Walidacja nazwy i logo
