@@ -51,13 +51,35 @@ aktualizacja: 2026-08-07
 | 28 | [[Frameworki/28 FAB drabina korzysci\|FAB / drabina korzyści]] | Komunikacja/Oferta | Jak z cechy zrobić korzyść dla klienta |
 | 29 | [[Frameworki/29 AIDA PAS\|AIDA i PAS]] | Komunikacja/Treść | Jak ułożyć treść prowadzącą do akcji |
 | 30 | [[Frameworki/30 CRO testy AB\|CRO / testy A/B]] | Walidacja/Strona | Jak testować i mierzyć konwersję |
+| 31 | [[Frameworki/31 Heurystyki i bledy poznawcze\|Heurystyki i błędy]] | Klient/Komunikacja | Jakie skróty myślowe działają przy decyzji |
+| 32 | [[Frameworki/32 Ekonomia behawioralna Nudge\|Ekonomia behawioralna]] | Komunikacja/Oferta/UX | Jak zmienić architekturę wyboru |
+| 33 | [[Frameworki/33 Psychologia zaufania\|Psychologia zaufania]] | Komunikacja/Oferta | Jak budować zaufanie (Trust Equation) |
+| 34 | [[Frameworki/34 Framing przekazu\|Framing]] | Komunikacja/Oferta | Jak ująć ten sam fakt skutecznie |
+| 35 | [[Frameworki/35 Narracja marki\|Narracja marki]] | Komunikacja/Treść | Jak opowiadać spójną historię marki |
+| 36 | [[Frameworki/36 Jezyk klienta VoC\|Jezyk klienta (VoC)]] | Klient/Komunikacja | Słowami klienta pisać komunikację |
+| 37 | [[Frameworki/37 Tarcie uzytkownika\|Tarcie użytkownika]] | Strona/UX | Gdzie i jak usuwać tarcie |
+| 38 | [[Frameworki/38 Kolor w brandingu\|Kolor w brandingu]] | Tożsamość/Design | Jak wybrać kolory ze strategii |
+| 39 | [[Frameworki/39 Typografia w brandingu\|Typografia]] | Tożsamość/Design | Fonty niosące charakter marki |
+| 40 | [[Frameworki/40 Hierarchia wizualna\|Hierarchia wizualna]] | Design/Strona | Co klient widzi najpierw |
+| 41 | [[Frameworki/41 Kontrast i dostepnosc\|Kontrast / WCAG]] | Design/Strona | Czytelność dla wszystkich |
+| 42 | [[Frameworki/42 Siatki i kompozycja\|Siatki / kompozycja]] | Design/Strona | Spójny system układu |
+| 43 | [[Frameworki/43 SEO\|SEO]] | Marketing/Treść | Widoczność w wyszukiwarce |
+| 44 | [[Frameworki/44 Email marketing\|Email marketing]] | Marketing/Treść | Lejek i relacja przez e-mail |
+| 45 | [[Frameworki/45 Social media strategia\|Social media]] | Marketing/Treść | Gdzie i po co być w social |
+| 46 | [[Frameworki/46 Performance marketing\|Performance]] | Marketing/Skala | Płatne media mierzone |
+| 47 | [[Frameworki/47 Lejek sprzedazowy\|Lejek sprzedażowy]] | Marketing/Wdrożenie | Gdzie tracimy klientów |
+| 48 | [[Frameworki/48 Content marketing\|Content marketing]] | Marketing/Treść | Treści prowadzące do oferty |
+| 49 | [[Frameworki/49 Mapa percepcyjna\|Mapa percepcyjna]] | Pozycjonowanie/Rynek | Gdzie jesteśmy w umyśle klienta |
+| 50 | [[Frameworki/50 Drabina wartosci\|Drabina wartości]] | Oferta/Marketing | Oferty od wejścia do premium |
 
 ---
 
-## Pełna lista docelowa (50) — status
+## Pełna lista docelowa (50)
 
-Zbudowane: **01–30** (karty w pełnej wersji szablonu: 01–20 podstawowe frameworki + 21–30 badania, psychologia, analiza i komunikacja).
-Do dociągnięcia (31–50): m.in. z Psychologii (heurystyki, ekonomia behawioralna, psychologia zaufania), z Copywritingu (framing, narracja, język klienta), z UX/CRO (tarcie, ścieżka użytkownika), z Designu (kolor, typografia, hierarchia, kontrast, siatki), z Marketingu (SEO, email, social, performance, content, lejek) oraz uzupełnienia (Blue Ocean szczegóły, Hormozi complete, Keller complete, Aaker complete).
+Zbudowane: **01–50** — komplet (karty w pełnej wersji szablonu).
+- 01–20: podstawowe frameworki strategii marki i komunikacji
+- 21–30: badania, psychologia, analiza, komunikacja, oferta
+- 31–50: psychologia decyzji, UX/tarcia, design (kolor/typografia/hierarchia/kontrast/siatki), marketing (SEO/email/social/performance/funnel/content)
 
 ## Zobacz też
 
