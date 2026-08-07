@@ -11,8 +11,8 @@ aktualizacja: 2026-08-07
 
 | Checklista | Kiedy użyć |
 |---|---|
-| [[Checklisty/Checklista jakości strategii|Checklista jakości strategii]] | Po zakończeniu pracy nad strategią — zanim uznasz ją za gotową |
-| [[Checklisty/Checklista wdrożenia|Checklista wdrożenia]] | Po wdrożeniu strategii w materiały/stronę/content |
+| [[Checklisty/Checklista jakości strategii\|Checklista jakości strategii]] | Po zakończeniu pracy nad strategią — zanim uznasz ją za gotową |
+| [[Checklisty/Checklista wdrożenia\|Checklista wdrożenia]] | Po wdrożeniu strategii w materiały/stronę/content |
 
 ## Zasada
 - Checklista to **nie** „dlaczego to brzmi ładnie" — to konkretne testy (rozumienie, źródła, spójność, metryki).

@@ -38,13 +38,13 @@ Agent (człowiek lub LLM) powinien:
 
 | Rola | Gdzie | Przykład |
 |---|---|---|
-| **Wiedza** (fundamenty) | [[Wiedza/Wiedza|Wiedza]] | „jak działa psychologia decyzji?" |
-| **Proces** (kolejność) | [[Playbooki/00 Jak korzystać z procesu|Playbooki]] | „jak zrobić research krok po kroku?" |
-| **Narzędzia** (frameworki) | [[Frameworki/Frameworki|Frameworki]] | „czym połączyć pozycjonowanie z komunikacją?" |
-| **Artefakty** (szablony) | [[Szablony/Szablony|Szablony]] | „stworzysz mi personę?" |
-| **Start agenta** (prompty) | [[Prompty/Prompty|Prompty]] | „jak uruchomić cały proces?" |
-| **Jakość** (checklisty) | [[Checklisty/Checklisty|Checklisty]] | „czy strategia jest kompletna?" |
-| **Dowód** (przykłady) | [[Przykłady/Przykłady|Przykłady]] | „pokaż przykład strategii dla usług B2B" |
+| **Wiedza** (fundamenty) | [[Wiedza/Wiedza\|Wiedza]] | „jak działa psychologia decyzji?" |
+| **Proces** (kolejność) | [[Playbooki/00 Jak korzystać z procesu\|Playbooki]] | „jak zrobić research krok po kroku?" |
+| **Narzędzia** (frameworki) | [[Frameworki/Frameworki\|Frameworki]] | „czym połączyć pozycjonowanie z komunikacją?" |
+| **Artefakty** (szablony) | [[Szablony/Szablony\|Szablony]] | „stworzysz mi personę?" |
+| **Start agenta** (prompty) | [[Prompty/Prompty\|Prompty]] | „jak uruchomić cały proces?" |
+| **Jakość** (checklisty) | [[Checklisty/Checklisty\|Checklisty]] | „czy strategia jest kompletna?" |
+| **Dowód** (przykłady) | [[Przykłady/Przykłady\|Przykłady]] | „pokaż przykład strategii dla usług B2B" |
 
 ## Zasady pracy z OS
 

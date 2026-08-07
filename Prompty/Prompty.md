@@ -11,7 +11,7 @@ aktualizacja: 2026-08-07
 
 | Prompt | Do czego |
 |---|---|
-| [[Prompty/Master prompt strategia|Master prompt strategia]] | Pełny proces od zlecenia do strategii (dla dowolnej branży) |
+| [[Prompty/Master prompt strategia\|Master prompt strategia]] | Pełny proces od zlecenia do strategii (dla dowolnej branży) |
 | *kolejne etapowe w budowie* | — |
 
 ## Jak używać

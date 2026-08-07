@@ -11,12 +11,12 @@ aktualizacja: 2026-08-07
 
 | Szablon | Etap | Co daje |
 |---|---|---|
-| [[Szablony/Persona klienta|Persona klienta]] | 03 Klient | Profil segmentu |
-| [[Szablony/Oświadczenie pozycjonowania|Oświadczenie pozycjonowania]] | 06 Pozycjonowanie | Formuła pozycji |
-| [[Szablony/StoryBrand|StoryBrand]] | 07 Komunikacja | Struktura przekazu |
-| [[Szablony/Oferta|Oferta]] | 08 Oferta | Struktura oferty |
-| [[Szablony/Struktura strony|Struktura strony]] | 10 Strona | Wireframe sekcji |
-| [[Szablony/Plan contentu|Plan contentu]] | 11 Treść | Kalendarz tematów |
+| [[Szablony/Persona klienta\|Persona klienta]] | 03 Klient | Profil segmentu |
+| [[Szablony/Oświadczenie pozycjonowania\|Oświadczenie pozycjonowania]] | 06 Pozycjonowanie | Formuła pozycji |
+| [[Szablony/StoryBrand\|StoryBrand]] | 07 Komunikacja | Struktura przekazu |
+| [[Szablony/Oferta\|Oferta]] | 08 Oferta | Struktura oferty |
+| [[Szablony/Struktura strony\|Struktura strony]] | 10 Strona | Wireframe sekcji |
+| [[Szablony/Plan contentu\|Plan contentu]] | 11 Treść | Kalendarz tematów |
 
 ## Jak używać
 1. Znajdź etap w [[Playbooki/00 Jak korzystać z procesu|playbookach]].

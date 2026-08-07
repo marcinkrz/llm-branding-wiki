@@ -13,12 +13,12 @@ aktualizacja: 2026-08-07
 
 | Dziedzina | Do czego służy w strategii |
 |---|---|
-| [[Wiedza/Psychologia|Psychologia]] | Zrozumienie, jak ludzie podejmują decyzje, czym jest zaufanie, heurystyki, JTBD, ekonomia behawioralna |
-| [[Wiedza/Copywriting|Copywriting]] | Komunikacja, framing, oferta, narracja, język klienta |
-| [[Wiedza/UX|UX]] | Gdzie CTA, jak budować landing, tarcie, ścieżka użytkownika |
-| [[Wiedza/Design|Design]] | Kolor, typografia, hierarchia, kontrast, siatki, branding wizualny |
-| [[Wiedza/Marketing|Marketing]] | SEO, email, social, performance, content, lejek |
-| [[Wiedza/Strategia marki|Strategia marki]] | Pozycjonowanie, propozycja wartości, segmentacja, insighty, architektura marki |
+| [[Wiedza/Psychologia\|Psychologia]] | Zrozumienie, jak ludzie podejmują decyzje, czym jest zaufanie, heurystyki, JTBD, ekonomia behawioralna |
+| [[Wiedza/Copywriting\|Copywriting]] | Komunikacja, framing, oferta, narracja, język klienta |
+| [[Wiedza/UX\|UX]] | Gdzie CTA, jak budować landing, tarcie, ścieżka użytkownika |
+| [[Wiedza/Design\|Design]] | Kolor, typografia, hierarchia, kontrast, siatki, branding wizualny |
+| [[Wiedza/Marketing\|Marketing]] | SEO, email, social, performance, content, lejek |
+| [[Wiedza/Strategia marki\|Strategia marki]] | Pozycjonowanie, propozycja wartości, segmentacja, insighty, architektura marki |
 
 ## Jak korzystać
 
