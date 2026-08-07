@@ -26,7 +26,7 @@ aktualizacja: 2026-08-07
 
 ## Z czym dobrze się łączy
 
-(Inne frameworki z biblioteki, z którymi działa synergicznie. Linki `[[Frameworki/...]]`).
+(Inne frameworki z biblioteki, z którymi działa synergicznie. Wstaw linki typu: [[Frameworki/01 StoryBrand|StoryBrand]].)
 
 ## Jakie decyzje pomaga podjąć
 
@@ -48,9 +48,12 @@ aktualizacja: 2026-08-07
 
 ## Typowe błędy początkujących
 
-- 
-- 
+*(Wypisz 2–4 najczęstsze błędy — np.:)*
+- Np.: traktowanie frameworka jako „odpowiedzi" zamiast narzędzia do myślenia.
+- Np.: użycie bez danych wejściowych (wypełnianie intuicją zamiast badaniem).
+- Np.: pominięcie sekcji „kiedy NIE używać".
 
 ## Pytania do klienta
 
-- 
+*(Wypisz 3–5 pytań do klienta, które ten framework pomaga zadać — np.:)*
+- Np.: „Kiedy ostatnio stanąłeś przed tym problemem — co zrobiłeś dokładnie?"
