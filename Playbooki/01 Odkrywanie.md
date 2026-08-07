@@ -21,16 +21,18 @@ Poznać biznes, ludzi za nim i kontekst, w którym działa — **zanim** zacznie
 - Dostęp do kluczowych osób (właściciel, sprzedaż, obsługa, produkt).
 
 ## Kroki
-1. **Brief**: zbierz cele biznesowe, zakres, odbiorców internalnych, deadline.
-2. **Zidentyfikuj osoby** do rozmów (właściciel, sprzedaż, obsługa — różne perspektywy).
-3. **Przeszukaj materiały**: strona, socials, oferty, opisy produktów, recenzje, dane sprzedażowe.
-4. **Wywiady discovery** z kluczowymi osobami:
+1. **Brief**: zbierz cele biznesowe, zakres, odbiorców internalnych, deadline. Użyj [[Szablony/Brief kreatywny|briefu kreatywnego]].
+2. **Wyślij kwestionariusz discovery** do klienta (→ [[Szablony/Kwestionariusz discovery]]) — zbierz założenia, zanim się spotkacie.
+3. **Zidentyfikuj osoby** do rozmów (właściciel, sprzedaż, obsługa — różne perspektywy).
+4. **Przeszukaj materiały**: strona, socials, oferty, opisy produktów, recenzje, dane sprzedażowe.
+5. **Wywiady discovery** z kluczowymi osobami:
    - o historii firmy (skąd się wzięła),
    - o tym, co według nich robią najlepiej,
    - o problemach i celach,
    - o konkurencji (ich zdaniem).
-5. **Spisz założenia** (co firma myśli o swoim rynku/kliencie) — to nie fakty, tylko hipotezy do weryfikacji.
-6. **Zdefiniuj pytania researchowe** na następne etapy (czego nie wiemy, a musimy wiedzieć).
+6. **Przeprowadź warsztat strategiczny** (→ [[Szablony/Warsztat strategiczny]]) — pogłębienie założeń, wybór kierunków.
+7. **Spisz założenia** (co firma myśli o swoim rynku/kliencie) — to nie fakty, tylko hipotezy do weryfikacji.
+8. **Zdefiniuj pytania researchowe** na następne etapy (czego nie wiemy, a musimy wiedzieć).
 
 ## Narzędzia (frameworki)
 - [[Frameworki/20 Golden Circle Sinek|Golden Circle]] — odkrycie WHY organizacji.

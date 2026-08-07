@@ -13,6 +13,13 @@ aktualizacja: 2026-08-07
 
 Klasyczne pozycjonowanie („miejsce w głowie") bywa zbyt ogólne w złożonych rynkach. Dunford dostarcza **procedurę**: jak z danych i opinii klientów wyłuskać *features wart zachodu*, ustawić konkurencyjne alternatywy, porównać i wybrać przewagę, którą rynek faktycznie cenią. To „positioning as a process vs. nagłówek".
 
+Jej model ma **5 komponentów** (każdy zależy od pozostałych):
+1. **Alternatywy konkurencyjne** (competitive alternatives) — z czego klient naprawdę wybiera, włącznie ze „status quo".
+2. **Cechy wyróżniające** (differentiated features/capabilities) — co robimy inaczej niż alternatywy.
+3. **Wartość** (value) — jak te cechy przekładają się na korzyść dla klienta.
+4. **Segment docelowy** (target market segment) — dla kogo to wszystko.
+5. **Kategoria/rynek** (market category/frame of reference) — jak klient nas klasyfikuje.
+
 ## Jakie ma ograniczenia
 
 - Wymaga rozmów z klientami i konkretnej pracy analitycznej — nie jest skrótem.

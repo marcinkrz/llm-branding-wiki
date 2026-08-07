@@ -11,7 +11,11 @@ aktualizacja: 2026-08-07
 
 ## Co rozwiązuje
 
-Problem "produkt jest, ale nikt nie kupuje" — bo to nie marketing tu zawodził, tylko **oferta**. Hormozi definiuje: *oferta = wszystko, co obiecujesz dać* (cena + wartości dodatkowe + gwarancje). Wprowadza równanie wartości: *Wartość postrzegana = (marzenie o wyniku × prawdopodobieństwo × skrócenie czasu) − wysiłek*. I zasadę: Advertisement (marketing) nie może sprzedać złej oferty.
+Problem "produkt jest, ale nikt nie kupuje" — bo to nie marketing tu zawodził, tylko **oferta**. Hormozi definiuje: *oferta = wszystko, co obiecujesz dać* (cena + wartości dodatkowe + gwarancje). Wprowadza równanie wartości:
+
+**Wartość postrzegana = (Marzenie o wyniku × Postrzegane prawdopodobieństwo) ÷ (Czas do rezultatu × Wysiłek i poświęcenie)**
+
+Czyli wartość rośnie, gdy: dajesz pożądany rezultat, zwiększasz pewność jego osiągnięcia, skracasz czas i zmniejszasz wysiłek klienta. I zasadę: Advertisement (marketing) nie może sprzedać złej oferty.
 
 ## Jakie ma ograniczenia
 

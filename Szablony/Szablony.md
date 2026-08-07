@@ -11,10 +11,14 @@ aktualizacja: 2026-08-07
 
 | Szablon | Etap | Co daje |
 |---|---|---|
+| [[Szablony/Kwestionariusz discovery\|Kwestionariusz discovery]] | 01 Odkrywanie | Pytania do klienta na start |
+| [[Szablony/Warsztat strategiczny\|Warsztat strategiczny]] | 01/06/09 | Agenda warsztatu z klientem |
+| [[Szablony/Brief kreatywny\|Brief kreatywny]] | 01/09/10 | Punkt wyjścia dla projektanta |
 | [[Szablony/Persona klienta\|Persona klienta]] | 03 Klient | Profil segmentu |
 | [[Szablony/Oświadczenie pozycjonowania\|Oświadczenie pozycjonowania]] | 06 Pozycjonowanie | Formuła pozycji |
 | [[Szablony/StoryBrand\|StoryBrand]] | 07 Komunikacja | Struktura przekazu |
 | [[Szablony/Oferta\|Oferta]] | 08 Oferta | Struktura oferty |
+| [[Szablony/Moodboard kierunek wizualny\|Moodboard / kierunek wizualny]] | 09 Tożsamość | Kierunek ID przed projektem |
 | [[Szablony/Struktura strony\|Struktura strony]] | 10 Strona | Wireframe sekcji |
 | [[Szablony/Plan contentu\|Plan contentu]] | 11 Treść | Kalendarz tematów |
 

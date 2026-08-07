@@ -11,7 +11,7 @@ aktualizacja: 2026-08-07
 
 ## Co rozwiązuje
 
-Problem "ludzie nie kupują tylko na podstawie racjonalnej funkcji". Cialdini opisał **6 zasad wpływu**: wzajemność, zaangażowanie i konsekwencja, społeczny dowód słuszności, autorytet, lubienie (similaryty), niedostępność. To podstawa etycznego projektowania komunikacji i oferty w budowie zaufania i skłaniania do działania.
+Problem "ludzie nie kupują tylko na podstawie racjonalnej funkcji". Cialdini opisał **6 zasad wpływu**: wzajemność, zaangażowanie i konsekwencja, społeczny dowód słuszności, autorytet, lubienie (similaryty), niedostępność. To podstawa etycznego projektowania komunikacji i oferty w budowaniu zaufania i skłaniania do działania.
 
 ## Jakie ma ograniczenia
 

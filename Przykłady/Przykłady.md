@@ -12,6 +12,7 @@ aktualizacja: 2026-08-07
 | Przykład | Sektor | Czego uczy |
 |---|---|---|
 | [[Przykłady/Strategia kancelaria podatkowa\|Strategia: kancelaria podatkowa]] | Usługi B2B / profesjonalne | Pełna podróż 01→13 w skrócie; jak pytania i dane → decyzje |
+| [[Przykłady/Strategia agencja brandingowa\|Strategia: agencja brandingowa + strony]] | Agencja kreatywna | Jak zastosować proces do własnej firmy usługowej (twój przypadek testowy) |
 
 *Kolejne przykłady do zbudowania z nowych zleceń (dodać po wykonaniu pełnego procesu).*
 

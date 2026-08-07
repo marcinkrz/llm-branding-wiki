@@ -26,7 +26,7 @@ Przełożyć pozycjonowanie na **tożsamość marki**: charakter, osobowość, w
 2. **Sformułuj rdzeń marki** (essence): co niezmienne, wg [[Frameworki/11 Model Aakera|Aakera]].
 3. **Określ wartości, które mają być komunikowane** (spójne z pozycją, nie „ściana wartości").
 4. **Ustal brand voice** (ton, słownictwo, czego unikamy) — z [[Playbooki/07 Komunikacja|07]].
-5. **Wypisz konsekwencje wizualne** ze strategii (kierunek: kolory, typografia, styl) — to brief dla projektanta, nie projekt.
+5. **Zbuduj kierunek wizualny (moodboard)** — z decyzji strategicznych: [[Szablony/Moodboard kierunek wizualny|moodboard]]; kolory/typografia wg [[Frameworki/38 Kolor w brandingu|koloru]] i [[Frameworki/39 Typografia w brandingu|typografii]].
 6. **Ustal architekturę marki** (jeśli portfolio) — [[Frameworki/11 Model Aakera|Aaker]].
 7. **Zapisz brand guidelines** (osobowość + voice + kierunek wizualny).
 

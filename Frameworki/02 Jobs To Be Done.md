@@ -38,7 +38,7 @@ Problem definiowania klienta przez demografię i „osobę". JTBD przenosi uwag�
 - [[Frameworki/19 Segmentacja STP|STP]] — job segmentuje skuteczniej niż demografia.
 - [[Frameworki/03 Value Proposition Canvas|Value Proposition Canvas]] — job ⇄ pain/gain.
 - [[Frameworki/01 StoryBrand|StoryBrand]] — historia zaczyna się od job klienta.
-- Wywiad JTBD — technika wywiadu *(karta 21 do zbudowania)*.
+- [[Frameworki/21 Wywiad JTBD|Wywiad JTBD]] — technika wywiadu.
 
 ## Jakie decyzje pomaga podjąć
 
