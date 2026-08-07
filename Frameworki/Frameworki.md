@@ -41,15 +41,23 @@ aktualizacja: 2026-08-07
 | 18 | [[Frameworki/18 Mapa podrozy klienta\|Mapa podróży klienta]] | Klient/Strona | Jak projektować doświadczenie na kontakcie |
 | 19 | [[Frameworki/19 Segmentacja STP\|Segmentacja STP]] | Klient/Pozycjonowanie | Kogo dokładnie obsługuję |
 | 20 | [[Frameworki/20 Golden Circle Sinek\|Golden Circle (Sinek)]] | Odkrywanie/Fundamenty | Jak odkryć WHY firmy |
-| 21 | VPC — szczegóły *(do zbudowania)* | Pozycjonowanie | dopasowanie wartości |
-| 22+ | *kolejne z listy 50* | — | — |
+| 21 | [[Frameworki/21 Wywiad JTBD\|Wywiad JTBD]] | Klient | Jak rozmawiać, by dotrzeć do prawdziwego joba |
+| 22 | [[Frameworki/22 System 1 i System 2\|System 1 i 2 (Kahneman)]] | Komunikacja/Oferta/UX | Jak projektować pod szybką decyzję |
+| 23 | [[Frameworki/23 Teoria perspektywy\|Teoria perspektywy]] | Komunikacja/Oferta/Cena | Jak ważymy zyski i straty |
+| 24 | [[Frameworki/24 SWOT TOWS\|SWOT / TOWS]] | Rynek/Analiza | Jak uporządkować i zamienić analizę w kierunki |
+| 25 | [[Frameworki/25 PESTEL\|PESTEL]] | Rynek/Analiza | Jakie czynniki zewnętrzne kształtują rynek |
+| 26 | [[Frameworki/26 5 sil Portera\|5 sił Portera]] | Rynek/Konkurencja | Jaka jest atrakcyjność i presja rynkowa |
+| 27 | [[Frameworki/27 Message House\|Message House]] | Komunikacja | Jak uporządkować przekaz wokół jednej obietnicy |
+| 28 | [[Frameworki/28 FAB drabina korzysci\|FAB / drabina korzyści]] | Komunikacja/Oferta | Jak z cechy zrobić korzyść dla klienta |
+| 29 | [[Frameworki/29 AIDA PAS\|AIDA i PAS]] | Komunikacja/Treść | Jak ułożyć treść prowadzącą do akcji |
+| 30 | [[Frameworki/30 CRO testy AB\|CRO / testy A/B]] | Walidacja/Strona | Jak testować i mierzyć konwersję |
 
 ---
 
 ## Pełna lista docelowa (50) — status
 
-Zbudowane dziś: **01–20** (karty w pełnej wersji szablonu).
-Do dociągnięcia: Buhler/Blue Ocean szczegóły, Hormozi (complete), Keller complete, Aaker, inne z listy „50 metodologii" (m.in. karty z sekcji Psychologia: heurystyki, JTBD interviews, ekonomia behawioralna, psychologia zaufania; z Copywriting: framing, narracja, język klienta; z UX: CRO, tarcie, ścieżka użytkownika; z Design: kolor, typografia, hierarchia, kontrast, siatki; z Marketing: SEO, email, social, performance, content, lejek).
+Zbudowane: **01–30** (karty w pełnej wersji szablonu: 01–20 podstawowe frameworki + 21–30 badania, psychologia, analiza i komunikacja).
+Do dociągnięcia (31–50): m.in. z Psychologii (heurystyki, ekonomia behawioralna, psychologia zaufania), z Copywritingu (framing, narracja, język klienta), z UX/CRO (tarcie, ścieżka użytkownika), z Designu (kolor, typografia, hierarchia, kontrast, siatki), z Marketingu (SEO, email, social, performance, content, lejek) oraz uzupełnienia (Blue Ocean szczegóły, Hormozi complete, Keller complete, Aaker complete).
 
 ## Zobacz też
 

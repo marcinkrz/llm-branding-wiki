@@ -66,6 +66,6 @@ To dokument, z którego agent korzysta **cały czas**. Odwzorowuje proces myśle
 
 ## Zasady uzupełniające
 
-- **Buduj według procesu, nie według tematów.** Strateg pracuje od Odkrywania do Wdrożenia — tak ułożone są [[00 Start#Proces|playbooki]].
+- **Buduj według procesu, nie według tematów.** Strateg pracuje od Odkrywania do Wdrożenia — tak ułożone są [[00 Start#Proces (Playbooki)|playbooki]].
 - **Odwzoruj proces myślenia, nie katalog wiedzy.** Najpierw proces i decyzje, potem frameworki jako wsparcie.
 - **Nie oceniaj strategii po brzmieniu — oceniaj po walidacji** (zob. [[Playbooki/12 Walidacja]]).
