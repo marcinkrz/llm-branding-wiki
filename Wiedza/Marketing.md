@@ -40,6 +40,19 @@ aktualizacja: 2026-08-07
 - Landing > kierowanie na stronę główną (zgodność przekazu).
 - Metryki: koszt pozyskania, konwersja, ROI — nie vanity (lajki).
 
+## Kierunki marketingu 2026 (wg Pawła Tkaczyka)
+
+*Trendy, które zmieniają architekturę internetu — i na które warto patrzeć przy planie kanałów:*
+
+- **In-thread experience** — lejek zamyka się wewnątrz jednej aplikacji (WhatsApp/Click-to-Chat u Meta, TikTok Seller). Reklama → wątek rozmowy → oferta → zakup bez opuszczania apki.
+- **Pillar content w social** — 25% użytkowników zaczyna szukać w social, nie w Google. Przenieś strategię „odpowiadaj na pytania" do TikToka/Instagrama (treści przekrojowe = ruch i podstawa lejka w aplikacji).
+- **GEO (Generative Engine Optimization)** — optymalizacja pod LLM-y: proste opisy bez metafor, strona jako „pojedyncze źródło prawdy", `llms.txt`, monitorowanie pozycji w ChatGPT/Gemini.
+- **B2A (Agent to Agent)** — zakupy przez asystentów AI; wystaw dane produkcie do odczytu przez agentów (serwery MCP), by były preferowane.
+- **CustomGPT / MCP jako kanały** — własny miniasystent (Custom GPT) lub serwer MCP jako punkt styczności z marką (marka dociera tam, gdzie klient pyta AI).
+- **Cyfrowy dobrobyt** — klienci przebodźcowani; marki budujące spokój (mniej bodźców, koniec vs. nieskończoność) zyskują zaufanie.
+
+**Wniosek dla strategii:** kanały i treści trzeba planować tak, jakby klient żył w epoce „wszystko w jednej aplikacji + asystenci AI" — lejek nie kończy się na stronie, lecz tam, gdzie klient decyduje (aplikacja, AI, wątek rozmowy).
+
 ## Jak to wpływa na decyzje strategiczne
 - **Kanały**: wynikają z segmentu i podróży, nie „z listy dostępnych".
 - **Budżet**: rozdział na budowę świadomości vs. performance ([[Frameworki/08 How Brands Grow|Sharp]]).

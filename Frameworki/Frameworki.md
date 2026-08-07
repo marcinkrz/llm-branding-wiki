@@ -71,15 +71,19 @@ aktualizacja: 2026-08-07
 | 48 | [[Frameworki/48 Content marketing\|Content marketing]] | Marketing/Treść | Treści prowadzące do oferty |
 | 49 | [[Frameworki/49 Mapa percepcyjna\|Mapa percepcyjna]] | Pozycjonowanie/Rynek | Gdzie jesteśmy w umyśle klienta |
 | 50 | [[Frameworki/50 Drabina wartosci\|Drabina wartości]] | Oferta/Marketing | Oferty od wejścia do premium |
+| 51 | [[Frameworki/51 Customer Value Chain\|Customer Value Chain (CVC)]] | Rynek/Oferta/Wdrożenie | Łańcuch wartości klienta + value klocki |
+| 52 | [[Frameworki/52 FOCUS przewaga\|F.O.C.U.S. (nieuczciwa przewaga)]] | Pozycjonowanie/Rynek | Przewaga, której nie da się skopiować |
+| 53 | [[Frameworki/53 Pomiar marki\|Pomiar marki (świadomość, NPS)]] | Walidacja/Wdrożenie | Jak zmierzyć, czy marka rośnie |
 
 ---
 
-## Pełna lista docelowa (50)
+## Pełna lista docelowa
 
-Zbudowane: **01–50** — komplet (karty w pełnej wersji szablonu).
+Zbudowane: **01–53** — komplet (karty w pełnej wersji szablonu).
 - 01–20: podstawowe frameworki strategii marki i komunikacji
 - 21–30: badania, psychologia, analiza, komunikacja, oferta
-- 31–50: psychologia decyzji, UX/tarcia, design (kolor/typografia/hierarchia/kontrast/siatki), marketing (SEO/email/social/performance/funnel/content)
+- 31–50: psychologia decyzji, UX/tarcia, design, marketing
+- 51–53: dodane z bloga Pawła Tkaczyka (CVC, F.O.C.U.S., pomiar marki)
 
 ## Zobacz też
 

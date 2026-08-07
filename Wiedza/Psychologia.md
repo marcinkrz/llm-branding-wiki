@@ -20,8 +20,13 @@ aktualizacja: 2026-08-07
 - **Społeczny dowód słuszności** — „inni już tak zrobili" (opinie, liczby).
 - **Dostępność** — oceniamy to, co łatwo przywołać (marka top-of-mind).
 - **Awersja do straty** — strata boli ~2× mocniej niż zysk cieszy (framing: „nie tracisz X" vs „zyskujesz Y").
-- **Efekt zakotwiczenia asparagu** — kontekst zmienia postrzeganą wartość.
+- **Framing/kontekst** — sposób ujęcia zmienia postrzeganą wartość (ta sama cena może „drożeć/tanieć" w zależności od kontekstu).
 - **Paradoks wyboru** — za dużo opcji = paraliż decyzyjny (ograniczaj warianty).
+
+### 2b. Trzy efekty wizerunku (wg Pawła Tkaczyka)
+- **Efekt cienkich plastrów (thin-slicing)** — oceniamy ludzi/marki na podstawie skrawków (nawet 30-sekundowy klip bez dźwięku). Pierwsze wrażenie → silne założenia (zdjęcie, logo, nagłówek = ekspres).
+- **Efekt Pigmaliona** — oczekiwania otoczenia kształtują wyniki (u dzieci w szkole; w biznesie: traktowana publicznie jako kompetentny = trudzi się więcej i rozwija). Wizerunek *wpływa na realne wyniki*, nie tylko postrzeganie.
+- **Efekt czystej ekspozycji** — lubimy to, co dobrze znamy (powtarzany kontakt z marką = wzrost preferencji). „Marki buduje się konsekwencją".
 
 ### 3. Teoria Jobs To Be Done (ekonomia behawioralna)
 - Klienci „wynajmują" produkt do wykonania zadania (*job*) w konkretnej sytuacji.

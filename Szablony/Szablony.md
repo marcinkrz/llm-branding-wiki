@@ -19,6 +19,7 @@ aktualizacja: 2026-08-07
 | [[Szablony/StoryBrand\|StoryBrand]] | 07 Komunikacja | Struktura przekazu |
 | [[Szablony/Oferta\|Oferta]] | 08 Oferta | Struktura oferty |
 | [[Szablony/Moodboard kierunek wizualny\|Moodboard / kierunek wizualny]] | 09 Tożsamość | Kierunek ID przed projektem |
+| [[Szablony/Walidacja nazwy i logo\|Walidacja nazwy i logo]] | 09 Tożsamość | Testy nazwy/logo przed rebrandingiem |
 | [[Szablony/Struktura strony\|Struktura strony]] | 10 Strona | Wireframe sekcji |
 | [[Szablony/Plan contentu\|Plan contentu]] | 11 Treść | Kalendarz tematów |
 
