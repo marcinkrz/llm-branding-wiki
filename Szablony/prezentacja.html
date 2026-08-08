@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[NAZWA FIRMY] — Strategia marki (prezentacja)</title>
+<!--
+  ═══════════════════════════════════════════════════════════════════════════
+  SZABLON: prezentacja.html — kliencka wizualizacja strategii (client-facing)
+  ═══════════════════════════════════════════════════════════════════════════
+  CEL: jedna, samowystarczalna strona HTML, którą pokazujesz KLIENTOWI.
+       Same decyzje i oferta — BEZ linków do roboczych plików .md, BEZ żargonu
+       researchowego, BEZ statusu „✓ zrobione / etap 04". Klient ma to „strawić"
+       w 2 minuty i rozumieć: dla kogo, z czym wygrywamy, jak mówimy, co oferujemy.
+
+  RÓŻNICA od index.html:
+    - index.html      = dashboard PROCESU (dla Ciebie/stratega): linki do .md,
+                        status etapów, checklista, hipotezy H1..Hn.
+    - prezentacja.html = WYNIK (dla klienta): same decyzje + oferta + tożsamość.
+
+  JAK WYPEŁNIAĆ (mapowanie artefakt → sekcja):
+    Hero (H1 one-liner, lead)        ← 04 Pozycjonowanie (one-liner) + 05 Komunikacja
+    01 Dla kogo (segment, persona)   ← 01 Research klienta / 03 Klient (bez „H1..Hn")
+    02 Z czym wygrywamy (statement)  ← 04 Pozycjonowanie (oświadczenie + vs rywale)
+    03 Jak pomagamy (kroki)          ← 05 Komunikacja (plan StoryBrand) / 08 Oferta
+    04 Co oferujemy (pakiety, ceny)  ← 06 Oferta (pakiety A–E + gwarancje)
+    05 Jak wyglądamy (kolory, typo)  ← 07 Tożsamość + DESIGN.md (tokeny)
+    06 Co dalej (wdrożenie, pomiar)  ← 11 Wdrożenie + 12 Walidacja (uproszczone)
+
+  ZASADY REDAKCYJNE (client-facing):
+    - Tłumacz „strategowość" na korzyść klienta. NIE: „segment S2, hipoteza H4".
+      TAK: „właściciel małej firmy usługowej, którego strona nie przynosi klientów".
+    - Pokaż ceny „od …" i zakres pakietów — to buduje zaufanie (przejrzystość).
+    - Usuń wszystkie adnotacje „do walidacji / H / hipoteza" — to wewnętrzne.
+      Klient dostaje rekomendację, nie proces wątpliwości.
+    - Kolory/typografię podmień na tokeny z DESIGN.md (etap 09).
+    - Przycisk „Drukuj / PDF" działa przez @media print (ukrywa bar i cienie).
+
+  UTWORZENIE: generuj NA KOŃCU procesu (po etapie 09, gdy są tokeny DESIGN.md).
+  Zawsze podmień zmienne CSS :root na kolory brandu projektu.
+  ═══════════════════════════════════════════════════════════════════════════
+-->
+<style>
+  :root{
+    /* ↓ PODMIEŃ na tokeny z DESIGN.md projektu (etap 09) */
+    --ink:#0e1b24; --ink-2:#1a2f3d; --volt:#c6f23e; --off:#f6f5f2; --stal:#5b7083;
+    --line:#e3e1da; --ok:#2e7d32;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);
+       background:var(--off);margin:0;line-height:1.55;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,.disp{font-family:"Space Grotesk","Inter",system-ui,sans-serif;letter-spacing:-.01em}
+  .wrap{max-width:960px;margin:0 auto;padding:0 22px}
+  .bar{position:sticky;top:0;z-index:10;background:var(--ink);color:#fff;border-bottom:3px solid var(--volt)}
+  .bar .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+  .brand{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:1.05rem}
+  .brand b{color:var(--volt)}
+  .bar .tag{font-size:.72rem;color:#9fb4c2;letter-spacing:.04em;text-transform:uppercase}
+  .btnprint{background:var(--volt);color:var(--ink);border:0;font:600 .8rem "Inter",sans-serif;
+            padding:8px 14px;border-radius:6px;cursor:pointer}
+  .hero{background:var(--ink);color:#fff;padding:70px 0 64px}
+  .kicker{color:var(--volt);font:600 .78rem "Space Grotesk",sans-serif;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px}
+  .hero h1{font-size:clamp(1.9rem,4.6vw,3.1rem);line-height:1.06;margin:0 0 18px;max-width:16ch}
+  .hero h1 em{font-style:normal;color:var(--volt)}
+  .hero p.lead{color:#c6d4de;font-size:1.08rem;max-width:52ch;margin:0 0 26px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{border:1px solid #33485a;color:#bcd0dd;font-size:.76rem;padding:5px 11px;border-radius:999px}
+  .chip b{color:var(--volt);font-weight:600}
+  section{padding:52px 0}
+  section.alt{background:#fff}
+  .k{color:var(--stal);font:600 .72rem "Space Grotesk",sans-serif;letter-spacing:.16em;text-transform:uppercase;margin:0 0 10px}
+  h2{font-size:clamp(1.35rem,2.6vw,1.8rem);margin:0 0 6px}
+  .sub{color:var(--stal);margin:0 0 26px;max-width:60ch}
+  .grid{display:grid;gap:14px}
+  .g2{grid-template-columns:repeat(2,1fr)} .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)}
+  @media(max-width:720px){.g2,.g3,.g4{grid-template-columns:1fr}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 18px 16px}
+  .alt .card{background:var(--off)}
+  .card h3{margin:0 0 6px;font-size:1.02rem}
+  .card p{margin:0;color:var(--ink-2);font-size:.93rem}
+  .card .num{font:700 .8rem "Space Grotesk",sans-serif;color:var(--stal)}
+  .card ul{margin:8px 0 0;padding-left:18px} .card li{font-size:.9rem;margin:3px 0;color:var(--ink-2)}
+  .statement{background:var(--ink);color:#fff;border-radius:14px;padding:26px;font-size:1.06rem;line-height:1.6}
+  .statement b{color:var(--volt)}
+  .oneliner{margin-top:16px;font-family:"Space Grotesk",sans-serif;font-size:clamp(1.15rem,2.4vw,1.5rem);font-weight:700}
+  .oneliner span{color:var(--volt)}
+  .steps{counter-reset:s;display:grid;gap:12px}
+  .step{display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .alt .step{background:var(--off)}
+  .step::before{counter-increment:s;content:counter(s,decimal-leading-zero);font:700 1.3rem "Space Grotesk",sans-serif;color:var(--volt);
+    background:var(--ink);border-radius:9px;min-width:46px;height:46px;display:flex;align-items:center;justify-content:center}
+  .step h3{margin:0 0 3px;font-size:1rem} .step p{margin:0;color:var(--ink-2);font-size:.92rem}
+  .pkg{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column}
+  .alt .pkg{background:var(--off)}
+  .pkg h3{margin:0;font-size:1.05rem}
+  .pkg .for{color:var(--stal);font-size:.82rem;margin:2px 0 10px}
+  .pkg .price{margin-top:auto;padding-top:12px;font:700 1.05rem "Space Grotesk",sans-serif}
+  .pkg .price small{display:block;font:500 .72rem "Inter",sans-serif;color:var(--stal)}
+  .pkg.flag{border:2px solid var(--volt);box-shadow:0 6px 22px -12px rgba(14,27,36,.25)}
+  .pkg .badge{align-self:flex-start;background:var(--ink);color:var(--volt);font:600 .66rem "Space Grotesk",sans-serif;
+     letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-bottom:8px}
+  .pkg ul{margin:0;padding-left:18px} .pkg li{font-size:.88rem;margin:3px 0;color:var(--ink-2)}
+  .swatches{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  @media(max-width:720px){.swatches{grid-template-columns:repeat(2,1fr)}}
+  .sw{border-radius:12px;overflow:hidden;border:1px solid var(--line);background:#fff}
+  .sw .c{height:86px} .sw .m{padding:10px 12px;font-size:.78rem}
+  .sw .m b{display:block;font-family:"Space Grotesk",sans-serif;font-size:.86rem}
+  .sw .m span{color:var(--stal);font-family:ui-monospace,monospace;font-size:.72rem}
+  .type{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+  @media(max-width:720px){.type{grid-template-columns:1fr}}
+  .type .card b{font-family:"Space Grotesk",sans-serif}
+  .ticks{display:grid;gap:10px}
+  .tick{display:flex;gap:12px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:10px;padding:13px 16px}
+  .alt .tick{background:var(--off)}
+  .tick i{font-style:normal;color:#fff;background:var(--ok);border-radius:50%;min-width:22px;height:22px;
+    display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700;margin-top:1px}
+  .tick p{margin:0;font-size:.92rem;color:var(--ink-2)} .tick p b{color:var(--ink)}
+  footer{padding:34px 0 60px;color:var(--stal);font-size:.8rem;border-top:1px solid var(--line);margin-top:20px}
+  @media print{
+    .bar,.btnprint{display:none} body{background:#fff}
+    section{padding:20px 0;break-inside:avoid}
+    .hero{background:#fff;color:var(--ink);padding:20px 0}
+    .hero h1 em,.kicker,.oneliner span{color:var(--ink)}
+    .hero p.lead,.chip{color:var(--ink-2)} .chip{border-color:var(--line)}
+    .statement{break-inside:avoid} .card,.step,.pkg,.sw,.tick{box-shadow:none}
+  }
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <div class="wrap">
+    <div class="brand">[NAZWA<b>FIRMY</b>] <span class="tag">&nbsp;· Strategia marki</span></div>
+    <button class="btnprint" onclick="window.print()">Drukuj / PDF</button>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Strategia marki · dokument dla klienta</p>
+    <!-- H1 = one-liner (UVP) z 04 Pozycjonowanie; kluczową korzyść opleć w <em> -->
+    <h1>[ONE-LINER / UVP — np. „Marka i strona, które <em>przynoszą klientów</em>."]</h1>
+    <p class="lead">[2–3 zdania streszczenia: dla kogo, z czym wygrywamy, co oferujemy, jak mierzymy. Bez żargonu.]</p>
+    <div class="chips">
+      <span class="chip">Rynek: <b>[segment]</b></span>
+      <span class="chip">Zasięg: <b>[geografia]</b></span>
+      <span class="chip">Model: <b>[strategia → design → …]</b></span>
+      <span class="chip">Status: <b>[etap]</b></span>
+    </div>
+  </div>
+</header>
+
+<!-- 01 DLA KOGO  ← 01 Research klienta / 03 Klient -->
+<section>
+  <div class="wrap">
+    <p class="k">01 · Dla kogo</p>
+    <h2>Kto jest naszym klientem</h2>
+    <p class="sub">[1 zdanie: dlaczego TEN segment]</p>
+    <div class="grid g2">
+      <div class="card"><h3>Główny segment</h3><p>[kto, wielkość, sytuacja — językiem korzyści, bez „S2/H4"]</p></div>
+      <div class="card"><h3>Persona — „[Imię]"</h3><p>[jak decyduje, czego się boi, co chce wiedzieć]</p></div>
+      <div class="card"><h3>Co ją boli</h3><ul><li>[ból 1 — cytatem]</li><li>[ból 2]</li><li>[ból 3]</li></ul></div>
+      <div class="card"><h3>Co chce osiągnąć</h3><ul><li>[rezultat 1]</li><li>[rezultat 2]</li><li>[rezultat 3]</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 Z CZYM WYGRYWAMY  ← 04 Pozycjonowanie -->
+<section class="alt">
+  <div class="wrap">
+    <p class="k">02 · Pozycjonowanie</p>
+    <h2>Z czym wygrywamy</h2>
+    <p class="sub">[1 zdanie o sytuacji rynkowej]</p>
+    <div class="statement">
+      [OŚWIADCZENIE POZYCJONOWANIA — z 04; kluczowe frazy opleć w <b>]
+      <div class="oneliner">„[ONE-LINER — <span>kluczowa fraza</span>]"</div>
+    </div>
+    <div class="grid g3" style="margin-top:16px">
+      <div class="card"><span class="num">vs [typ rywala 1]</span><h3>[nasza przewaga]</h3><p>[1–2 zdania]</p></div>
+      <div class="card"><span class="num">vs [typ rywala 2]</span><h3>[nasza przewaga]</h3><p>[1–2 zdania]</p></div>
+      <div class="card"><span class="num">vs [typ rywala 3]</span><h3>[nasza przewaga]</h3><p>[1–2 zdania]</p></div>
+    </div>
+    <div class="card" style="margin-top:14px"><h3>Dlaczego to obronimy</h3><p>[defensywność — co trudno skopiować]</p></div>
+  </div>
+</section>
+
+<!-- 03 JAK POMAGAMY  ← 05 Komunikacja (plan) / 08 Oferta -->
+<section>
+  <div class="wrap">
+    <p class="k">03 · Proces</p>
+    <h2>Jak pomagamy — 3 kroki</h2>
+    <p class="sub">[1 zdanie: proces jako część oferty]</p>
+    <div class="steps">
+      <div class="step"><div><h3>[Krok 1 — np. bezpłatny audyt]</h3><p>[co klient dostaje]</p></div></div>
+      <div class="step"><div><h3>[Krok 2 — np. strategia i kierunek]</h3><p>[co klient dostaje]</p></div></div>
+      <div class="step"><div><h3>[Krok 3 — np. wdrożenie + pomiar]</h3><p>[co klient dostaje]</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 OFERTA  ← 06 Oferta -->
+<section class="alt">
+  <div class="wrap">
+    <p class="k">04 · Oferta</p>
+    <h2>Co dokładnie oferujemy</h2>
+    <p class="sub">[zasada cen — np. „pakiety od …, wartość > cena"]</p>
+    <div class="grid g3">
+      <div class="pkg"><h3>A · [nazwa]</h3><div class="for">[dla kogo]</div><ul><li>[zakres]</li><li>[zakres]</li></ul><div class="price">[cena]<small>[czas]</small></div></div>
+      <div class="pkg"><h3>B · [nazwa]</h3><div class="for">[dla kogo]</div><ul><li>[zakres]</li><li>[zakres]</li></ul><div class="price">[cena]<small>[czas]</small></div></div>
+      <div class="pkg"><h3>C · [nazwa]</h3><div class="for">[dla kogo]</div><ul><li>[zakres]</li><li>[zakres]</li></ul><div class="price">[cena]<small>[czas]</small></div></div>
+      <div class="pkg flag"><span class="badge">Flagowy</span><h3>D · [nazwa]</h3><div class="for">[dla kogo]</div><ul><li>[zakres]</li><li>[zakres]</li></ul><div class="price">[cena]<small>[czas]</small></div></div>
+      <div class="pkg"><h3>E · [nazwa]</h3><div class="for">[dla kogo]</div><ul><li>[zakres]</li><li>[zakres]</li></ul><div class="price">[cena]<small>[okres]</small></div></div>
+      <div class="pkg" style="justify-content:center;background:var(--ink);border-color:var(--ink)"><h3 style="color:#fff">Gwarancje</h3><ul><li style="color:#c6d4de">[gwarancja 1]</li><li style="color:#c6d4de">[gwarancja 2]</li><li style="color:#c6d4de">[gwarancja 3]</li></ul></div>
+    </div>
+    <p class="sub" style="margin-top:14px">[zastrzeżenia cenowe — np. „netto, od …, wycena po audycie; bez fałszywej gwarancji sprzedaży"]</p>
+  </div>
+</section>
+
+<!-- 05 TOŻSAMOŚĆ  ← 07 Tożsamość + DESIGN.md -->
+<section>
+  <div class="wrap">
+    <p class="k">05 · Tożsamość</p>
+    <h2>Jak wyglądamy i brzmimy</h2>
+    <p class="sub">Essence: <b>„[essence z 07]"</b></p>
+    <div class="swatches">
+      <div class="sw"><div class="c" style="background:#0e1b24"></div><div class="m"><b>[Kolor 1]</b>[rola]<span>[#HEX]</span></div></div>
+      <div class="sw"><div class="c" style="background:#c6f23e"></div><div class="m"><b>[Kolor 2]</b>[rola]<span>[#HEX]</span></div></div>
+      <div class="sw"><div class="c" style="background:#f6f5f2"></div><div class="m"><b>[Kolor 3]</b>[rola]<span>[#HEX]</span></div></div>
+      <div class="sw"><div class="c" style="background:#5b7083"></div><div class="m"><b>[Kolor 4]</b>[rola]<span>[#HEX]</span></div></div>
+    </div>
+    <div class="type">
+      <div class="card"><b>Nagłówki — [font]</b><p>[charakter, dlaczego]</p></div>
+      <div class="card"><b>Tekst — [font]</b><p>[ton/głos marki]</p></div>
+    </div>
+    <div class="grid g4" style="margin-top:14px">
+      <div class="card"><h3>[wartość 1]</h3><p>[co znaczy]</p></div>
+      <div class="card"><h3>[wartość 2]</h3><p>[co znaczy]</p></div>
+      <div class="card"><h3>[wartość 3]</h3><p>[co znaczy]</p></div>
+      <div class="card"><h3>[wartość 4]</h3><p>[co znaczy]</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 CO DALEJ  ← 11 Wdrożenie + 12 Walidacja -->
+<section class="alt">
+  <div class="wrap">
+    <p class="k">06 · Co dalej</p>
+    <h2>Jak to wdrażamy i mierzymy</h2>
+    <p class="sub">[1 zdanie: najpierw test, potem skala]</p>
+    <div class="ticks">
+      <div class="tick"><i>1</i><p><b>[Krok wdrożenia 1].</b> [co i kiedy]</p></div>
+      <div class="tick"><i>2</i><p><b>[Krok wdrożenia 2].</b> [co i kiedy]</p></div>
+      <div class="tick"><i>3</i><p><b>[Krok wdrożenia 3].</b> [co i kiedy]</p></div>
+      <div class="tick"><i>4</i><p><b>[Pomiar].</b> [jak mierzymy efekt]</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <b>[NAZWA FIRMY]</b> — strategia marki · dokument dla klienta.<br>
+    Przygotowane metodą Brand Strategy OS · aktualizacja [DATA] · status [ETAP].<br>
+    To jest wersja prezentacyjna (decyzje + oferta). Szczegóły researchu i artefakty robocze — w osobnych plikach projektu.
+  </div>
+</footer>
+
+</body>
+</html>

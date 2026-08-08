@@ -39,10 +39,11 @@ aktualizacja: 2026-08-07
 │       ├── ...
 │       └── porownanie-wizualne.md ← tabela: look&feel, kolory, ton, URL, data
 │
-├── index.html                     ← przegląd procesu (aktualizowany po KAŻDYM etapie)
-│                                    sam tekst + minimalne CSS, bez grafik
+├── index.html                     ← przegląd procesu (dla stratega; aktualizowany po KAŻDYM etapie)
+│                                    linki do .md, status etapów, checklista, hipotezy
+├── prezentacja.html               ← wizualizacja strategii DLA KLIENTA (generowana na końcu)
+│                                    same decyzje + oferta + tożsamość, BEZ linków do .md
 └── DESIGN.md                      ← tokeny brandowe (POWSTAJE na etapie 09, Tożsamość)
-                                     kolory, typografia, komponenty (spec design.md)
 ```
 
 ## index.html — przegląd procesu
@@ -54,6 +55,20 @@ Cel: **jedna strona, na której widać stan całego projektu** — co zrobione, 
 - Sekcja „Kluczowe decyzje" (one-liner, segment, oferta) — szybki przegląd bez otwierania notatek.
 - **Tryb: sam tekst + prosty CSS** (system font, bez obrazków) — szybki do przeglądu i druku.
 - Aktualizacja: **po każdym etapie** (agent aktualizuje plik, gdy dodaje artefakt).
+
+## prezentacja.html — wizualizacja strategii DLA KLIENTA
+
+Cel: **jedna, samowystarczalna strona, którą pokazujesz klientowi** — łatwa do „strawienia" w 2 minuty.
+
+- **Odbiorca:** klient (nie strateg). Dlatego: same decyzje + oferta + tożsamość, **BEZ linków do `.md`**, bez statusu procesu i bez adnotacji „hipoteza H4 / do walidacji" (to wewnętrzne).
+- **Zawartość (mapowanie artefakt→sekcja):** hero = one-liner z `04 Pozycjonowanie`; Dla kogo = `01/03`; Z czym wygrywamy = `04` (oświadczenie + vs rywale); Jak pomagamy = `05/08`; Oferta = `06` (pakiety + ceny + gwarancje); Tożsamość = `07` + `DESIGN.md`; Co dalej = `11/12`.
+- **Szablon:** [[Szablony/prezentacja.html|Szablony/prezentacja.html]] (instrukcja mapowania w komentarzu na górze pliku).
+- **Kolory/typografia:** zawsze podmień zmienne CSS `:root` na tokeny z `DESIGN.md` (etap 09).
+- **Przycisk „Drukuj / PDF"** działa przez `@media print` (ukrywa pasek i cienie).
+- **Kiedy tworzyć:** na końcu procesu (po etapie 09, gdy są tokeny i oferta). Można iterować.
+- Przykład referencyjny: `00 Projekty/Visual-Label/prezentacja.html`.
+
+> Zasada: `index.html` = **proces** (dla Ciebie), `prezentacja.html` = **wynik** (dla klienta). Nie mieszaj ich.
 
 ## DESIGN.md — tokeny brandowe (etap 09+)
 

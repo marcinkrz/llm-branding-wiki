@@ -123,6 +123,19 @@ Dodatkowo master prompt:
 | `Szablony/Kwestionariusz discovery.md` | + sekcja „nowy biznes" (potencjalni klienci, płatność, W0) |
 | `Prompty/Prompty.md` | aktualizacja hubu: 3 ścieżki (z danymi / Q&A / etapami), kiedy która |
 | `Audyt Brand Strategy OS.md` | **NOWY** — ten dokument |
+| `00 Projekty/Visual-Label/prezentacja.html` | **NOWY** — kliencka wizualizacja strategii (bez linków do md; na prośbę 2026-08-08) |
+| `Szablony/prezentacja.html` | **NOWY** — szablon klienckiej prezentacji + instrukcja mapowania artefakt→sekcja |
+| `Szablony/Struktura projektu.md` | + artefakt `prezentacja.html` i rozróżnienie: `index.html` = proces (dla stratega), `prezentacja.html` = wynik (dla klienta) |
+
+---
+
+## 9. Dodatek (2026-08-08) — kliencka wizualizacja strategii
+
+Na prośbę właściciela dodany nowy artefakt: **`prezentacja.html`**. Rozdziela dwa dotychczas mieszane cele:
+- **`index.html`** = przegląd *procesu* dla stratega (linki do `.md`, status etapów, checklista, hipotezy).
+- **`prezentacja.html`** = *wynik* dla klienta: same decyzje, oferta i tożsamość, łatwe do „strawienia", bez linków do roboczych notatek i bez wewnętrznych adnotacji („hipoteza", „do walidacji").
+
+Wypełniony przykład: `00 Projekty/Visual-Label/prezentacja.html` (tokeny ink+volt, tryb jasny/ciemny, przycisk Drukuj/PDF). Szablon do kolejnych projektów: `Szablony/prezentacja.html`.
 
 ---
 

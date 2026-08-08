@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visual Label — Strategia marki (prezentacja)</title>
+<style>
+  :root{
+    --ink:#0e1b24; --ink-2:#1a2f3d; --volt:#c6f23e; --off:#f6f5f2; --stal:#5b7083;
+    --line:#e3e1da; --ok:#2e7d32;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);
+       background:var(--off);margin:0;line-height:1.55;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,.disp{font-family:"Space Grotesk","Inter",system-ui,sans-serif;letter-spacing:-.01em}
+  a{color:inherit}
+  .wrap{max-width:960px;margin:0 auto;padding:0 22px}
+
+  /* ===== top bar ===== */
+  .bar{position:sticky;top:0;z-index:10;background:var(--ink);color:#fff;border-bottom:3px solid var(--volt)}
+  .bar .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+  .brand{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:1.05rem}
+  .brand b{color:var(--volt)}
+  .bar .tag{font-size:.72rem;color:#9fb4c2;letter-spacing:.04em;text-transform:uppercase}
+  .btnprint{background:var(--volt);color:var(--ink);border:0;font:600 .8rem "Inter",sans-serif;
+            padding:8px 14px;border-radius:6px;cursor:pointer}
+  .btnprint:hover{filter:brightness(.95)}
+
+  /* ===== hero ===== */
+  .hero{background:var(--ink);color:#fff;padding:70px 0 64px}
+  .kicker{color:var(--volt);font:600 .78rem "Space Grotesk",sans-serif;letter-spacing:.18em;text-transform:uppercase;margin:0 0 14px}
+  .hero h1{font-size:clamp(1.9rem,4.6vw,3.1rem);line-height:1.06;margin:0 0 18px;max-width:16ch}
+  .hero h1 em{font-style:normal;color:var(--volt)}
+  .hero p.lead{color:#c6d4de;font-size:1.08rem;max-width:52ch;margin:0 0 26px}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{border:1px solid #33485a;color:#bcd0dd;font-size:.76rem;padding:5px 11px;border-radius:999px}
+  .chip b{color:var(--volt);font-weight:600}
+
+  /* ===== sections ===== */
+  section{padding:52px 0}
+  section.alt{background:#fff}
+  .k{color:var(--stal);font:600 .72rem "Space Grotesk",sans-serif;letter-spacing:.16em;text-transform:uppercase;margin:0 0 10px}
+  h2{font-size:clamp(1.35rem,2.6vw,1.8rem);margin:0 0 6px}
+  .sub{color:var(--stal);margin:0 0 26px;max-width:60ch}
+
+  .grid{display:grid;gap:14px}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .g4{grid-template-columns:repeat(4,1fr)}
+  @media(max-width:720px){.g2,.g3,.g4{grid-template-columns:1fr}}
+
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 18px 16px}
+  .alt .card{background:var(--off)}
+  .card h3{margin:0 0 6px;font-size:1.02rem}
+  .card p{margin:0;color:var(--ink-2);font-size:.93rem}
+  .card .num{font:700 .8rem "Space Grotesk",sans-serif;color:var(--stal)}
+  .card ul{margin:8px 0 0;padding-left:18px} .card li{font-size:.9rem;margin:3px 0;color:var(--ink-2)}
+
+  /* positioning statement */
+  .statement{background:var(--ink);color:#fff;border-radius:14px;padding:26px 26px;font-size:1.06rem;line-height:1.6}
+  .statement b{color:var(--volt)}
+  .oneliner{margin-top:16px;font-family:"Space Grotesk",sans-serif;font-size:clamp(1.15rem,2.4vw,1.5rem);font-weight:700;color:#fff}
+  .oneliner span{color:var(--volt)}
+
+  /* steps */
+  .steps{counter-reset:s;display:grid;gap:12px}
+  .step{display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .alt .step{background:var(--off)}
+  .step::before{counter-increment:s;content:counter(s,decimal-leading-zero);font:700 1.3rem "Space Grotesk",sans-serif;color:var(--volt);
+    background:var(--ink);border-radius:9px;min-width:46px;height:46px;display:flex;align-items:center;justify-content:center}
+  .step h3{margin:0 0 3px;font-size:1rem} .step p{margin:0;color:var(--ink-2);font-size:.92rem}
+
+  /* packages */
+  .pkg{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column}
+  .alt .pkg{background:var(--off)}
+  .pkg h3{margin:0;font-size:1.05rem}
+  .pkg .for{color:var(--stal);font-size:.82rem;margin:2px 0 10px}
+  .pkg .price{margin-top:auto;padding-top:12px;font:700 1.05rem "Space Grotesk",sans-serif;color:var(--ink)}
+  .pkg .price small{display:block;font:500 .72rem "Inter",sans-serif;color:var(--stal)}
+  .pkg.flag{border:2px solid var(--volt);box-shadow:0 6px 22px -12px rgba(14,27,36,.25)}
+  .pkg .badge{align-self:flex-start;background:var(--ink);color:var(--volt);font:600 .66rem "Space Grotesk",sans-serif;
+     letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:999px;margin-bottom:8px}
+  .pkg ul{margin:0;padding-left:18px} .pkg li{font-size:.88rem;margin:3px 0;color:var(--ink-2)}
+
+  /* palette */
+  .swatches{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  @media(max-width:720px){.swatches{grid-template-columns:repeat(2,1fr)}}
+  .sw{border-radius:12px;overflow:hidden;border:1px solid var(--line);background:#fff}
+  .sw .c{height:86px}
+  .sw .m{padding:10px 12px;font-size:.78rem} .sw .m b{display:block;font-family:"Space Grotesk",sans-serif;font-size:.86rem}
+  .sw .m span{color:var(--stal);font-family:ui-monospace,monospace;font-size:.72rem}
+  .type{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+  @media(max-width:720px){.type{grid-template-columns:1fr}}
+  .type .card b{font-family:"Space Grotesk",sans-serif}
+
+  /* guarantee / next */
+  .ticks{display:grid;gap:10px}
+  .tick{display:flex;gap:12px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:10px;padding:13px 16px}
+  .alt .tick{background:var(--off)}
+  .tick i{font-style:normal;color:#fff;background:var(--ok);border-radius:50%;min-width:22px;height:22px;
+    display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700;margin-top:1px}
+  .tick p{margin:0;font-size:.92rem;color:var(--ink-2)} .tick p b{color:var(--ink)}
+
+  footer{padding:34px 0 60px;color:var(--stal);font-size:.8rem;border-top:1px solid var(--line);margin-top:20px}
+
+  /* ===== print ===== */
+  @media print{
+    .bar,.btnprint{display:none}
+    body{background:#fff}
+    section{padding:20px 0;break-inside:avoid}
+    .hero{background:#fff;color:var(--ink);padding:20px 0}
+    .hero h1 em,.kicker,.oneliner span{color:var(--ink)}
+    .hero p.lead,.chip{color:var(--ink-2)} .chip{border-color:var(--line)}
+    .statement{break-inside:avoid}
+    .card,.step,.pkg,.sw,.tick{box-shadow:none}
+  }
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <div class="wrap">
+    <div class="brand">Visual<b>Label</b> <span class="tag">&nbsp;· Strategia marki</span></div>
+    <button class="btnprint" onclick="window.print()">Drukuj / PDF</button>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Strategia marki · dokument dla klienta</p>
+    <h1>Marka i strona, które <em>przynoszą klientów</em> — nie tylko ładnie wyglądają.</h1>
+    <p class="lead">Kompletna strategia Visual Label: dla kogo, z czym wygrywamy, jak o tym mówimy, co dokładnie oferujemy i jak to mierzymy. Bez żargonu — same decyzje.</p>
+    <div class="chips">
+      <span class="chip">Rynek: <b>MŚP usługowe</b></span>
+      <span class="chip">Zasięg: <b>Rzeszów + PL / EN</b></span>
+      <span class="chip">Model: <b>strategia → design → strona → pomiar</b></span>
+      <span class="chip">Status: <b>walidacja popytu</b></span>
+    </div>
+  </div>
+</header>
+
+<!-- 1 DLA KOGO -->
+<section>
+  <div class="wrap">
+    <p class="k">01 · Dla kogo</p>
+    <h2>Kto jest naszym klientem</h2>
+    <p class="sub">Jeden, konkretny segment — nie „wszyscy". To on dyktuje przekaz, ofertę i cenę.</p>
+    <div class="grid g2">
+      <div class="card">
+        <h3>Główny segment</h3>
+        <p><b>Właściciel(ka) istniejącej małej firmy usługowej</b> — kancelaria, księgowość, usługi, rzemiosło, lokalne B2C (1–15 osób). Ma już firmę i stronę, ale <b>marka jest niespójna albo strona nie przynosi klientów.</b></p>
+      </div>
+      <div class="card">
+        <h3>Persona — „Kasia"</h3>
+        <p>Decyduje sama, pilnuje budżetu i czasu, nie jest marketerem. Boi się przepalić pieniądze i trafić na kogoś, kto „zrobi po swojemu i zniknie". Chce wiedzieć: <b>co dostanie, za ile i kiedy.</b></p>
+      </div>
+      <div class="card">
+        <h3>Co ją boli</h3>
+        <ul>
+          <li>„Strona stoi, a zapytań brak."</li>
+          <li>„Nie wiem, ile to ma kosztować" (wyceny różnią się 10×).</li>
+          <li>„Boję się, że zrobią ładnie, ale bez efektu."</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Co chce osiągnąć</h3>
+        <ul>
+          <li>Firma, która <b>wygląda na tyle, ile jest warta.</b></li>
+          <li>Strona, która <b>generuje zapytania</b>.</li>
+          <li>Partner, który trzyma termin i nie znika po wdrożeniu.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 Z CZYM WYGRYWAMY -->
+<section class="alt">
+  <div class="wrap">
+    <p class="k">02 · Pozycjonowanie</p>
+    <h2>Z czym wygrywamy</h2>
+    <p class="sub">Rynek jest zatłoczony — nie pozycjonujemy się „obok", tylko decydujemy o przewadze.</p>
+
+    <div class="statement">
+      <b>Dla właściciela małej firmy usługowej,</b> który ma markę i stronę, ale nie widzi z nich klientów, <b>Visual Label</b> to studio marki i strony internetowej, które łączy <b>strategię z designem i konwersją</b>, mierzy efekt i pilnuje procesu po ludzku — w przeciwieństwie do agencji, które robią „ładnie, ale bez związku ze sprzedażą" albo znikają po wdrożeniu.
+      <div class="oneliner">„Marka i strona, które <span>przynoszą klientów</span>."</div>
+    </div>
+
+    <div class="grid g3" style="margin-top:16px">
+      <div class="card">
+        <span class="num">vs studia butikowe</span>
+        <h3>Efekt, nie tylko portfolio</h3>
+        <p>One pokazują ładne prace. My eksponujemy proces, pomiar i rezultat — „co z tego wynika dla Twojej firmy".</p>
+      </div>
+      <div class="card">
+        <span class="num">vs tanie agencje WP</span>
+        <h3>Strategia + design</h3>
+        <p>One robią szablon bez strategii. My łączymy strategię, design i konwersję w jeden spójny przekaz.</p>
+      </div>
+      <div class="card">
+        <span class="num">vs freelancer / DIY</span>
+        <h3>Pewność, nie ryzyko</h3>
+        <p>Oni dają niską cenę i ryzyko zniknięcia. My dajemy jasny zakres, termin, pełne pliki i opiekę po wdrożeniu.</p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:14px">
+      <h3>Dlaczego to obronimy</h3>
+      <p>Nie konkurujemy „tańszym logo" (tam DIY jest nie do pobicia). Broni nas realny, powtarzalny proces, kompetencje grafik+frontend w jednym oraz budowane dowody (case'y z wynikami). Slogan da się skopiować — wykonanie nie.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 3 JAK POMAGAMY -->
+<section>
+  <div class="wrap">
+    <p class="k">03 · Proces</p>
+    <h2>Jak pomagamy — 3 kroki</h2>
+    <p class="sub">Przejrzysty proces to część oferty. Klient wie, co się stanie, zanim zapłaci.</p>
+    <div class="steps">
+      <div class="step"><div><h3>Bezpłatny audyt marki i strony</h3><p>Pokazujemy, gdzie tracisz zapytania i co da najwięcej. Bez zobowiązań — sprawdzasz nas, zanim zapłacisz.</p></div></div>
+      <div class="step"><div><h3>Strategia i wspólny kierunek</h3><p>Ustalamy co dokładnie zrobimy, za ile i kiedy. Przezroczysty plan — zero mgły i „wycen z kosmosu".</p></div></div>
+      <div class="step"><div><h3>Identyfikacja + strona + pomiar + opieka</h3><p>Wdrażamy spójny przekaz i pokazujemy wynik. Zostajemy po wdrożeniu — nie znikamy.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 OFERTA -->
+<section class="alt">
+  <div class="wrap">
+    <p class="k">04 · Oferta</p>
+    <h2>Co dokładnie oferujemy</h2>
+    <p class="sub">Pakiety z jawnym zakresem i ceną „od …". Wartość ma być większa niż cena.</p>
+    <div class="grid g3">
+      <div class="pkg">
+        <h3>A · Audyt &amp; Strategia</h3>
+        <div class="for">gdy nie wiesz, „co z tym zrobić"</div>
+        <ul><li>Bezpłatny audyt (10 pkt)</li><li>Diagnoza, pozycjonowanie</li><li>Kierunek komunikacji i wizualny</li></ul>
+        <div class="price">0 / 3–6 tys. zł<small>audyt gratis · strategia 1–2 tyg.</small></div>
+      </div>
+      <div class="pkg">
+        <h3>B · Marka / ID</h3>
+        <div class="for">gdy marka jest niespójna</div>
+        <ul><li>Strategia + logo (2–3 koncepcje)</li><li>Paleta, typografia, materiały</li><li>Pełne pliki + mini-brandbook</li></ul>
+        <div class="price">6–12 tys. zł<small>3–5 tyg.</small></div>
+      </div>
+      <div class="pkg">
+        <h3>C · Strona (WordPress)</h3>
+        <div class="for">gdy strona nie przynosi klientów</div>
+        <ul><li>Teksty + projekt + wdrożenie</li><li>Wizytówka lub sklep WooCommerce</li><li>SEO-podstawy + pomiar</li></ul>
+        <div class="price">4–15 tys. zł<small>wizytówka 4–7 · sklep 8–15 tys.</small></div>
+      </div>
+      <div class="pkg flag">
+        <span class="badge">Flagowy</span>
+        <h3>D · START (pełnia)</h3>
+        <div class="for">całość i koniec szukania</div>
+        <ul><li>A + B + C razem</li><li>Jeden spójny przekaz i wygląd</li><li>Pomiar efektu po 30 dniach</li></ul>
+        <div class="price">12–22 tys. zł<small>4–8 tyg. · priorytet terminu</small></div>
+      </div>
+      <div class="pkg">
+        <h3>E · Opieka / Retainer</h3>
+        <div class="for">ciągłość po wdrożeniu</div>
+        <ul><li>Utrzymanie i aktualizacje</li><li>Drobne zmiany, wsparcie</li><li>Raport miesięczny</li></ul>
+        <div class="price">800–2 000 zł/mc<small>umowa miesięczna</small></div>
+      </div>
+      <div class="pkg" style="justify-content:center;background:var(--ink);border-color:var(--ink)">
+        <h3 style="color:#fff">Gwarancje</h3>
+        <ul style="color:#c6d4de">
+          <li style="color:#c6d4de">Płatność etapowa</li>
+          <li style="color:#c6d4de">Bezpłatny audyt bez zobowiązań</li>
+          <li style="color:#c6d4de">Termin w umowie, pełne pliki i prawa</li>
+        </ul>
+      </div>
+    </div>
+    <p class="sub" style="margin-top:14px">Ceny netto, „od …" — dokładna wycena po bezpłatnym audycie. Nie obiecujemy „gwarancji sprzedaży"; obiecujemy proces, jakość i pomiar.</p>
+  </div>
+</section>
+
+<!-- 5 JAK WYGLĄDAMY -->
+<section>
+  <div class="wrap">
+    <p class="k">05 · Tożsamość</p>
+    <h2>Jak wyglądamy i brzmimy</h2>
+    <p class="sub">Tożsamość wynika ze strategii, nie z „ładnego pomysłu". Essence: <b>„pewny przewodnik w budowaniu marki, która działa".</b></p>
+
+    <div class="swatches">
+      <div class="sw"><div class="c" style="background:#0e1b24"></div><div class="m"><b>Ink</b>powaga, strategia<span>#0E1B24</span></div></div>
+      <div class="sw"><div class="c" style="background:#c6f23e"></div><div class="m"><b>Volt</b>energia, CTA, konwersja<span>#C6F23E</span></div></div>
+      <div class="sw"><div class="c" style="background:#f6f5f2"></div><div class="m"><b>Off-white</b>przestrzeń, czytelność<span>#F6F5F2</span></div></div>
+      <div class="sw"><div class="c" style="background:#5b7083"></div><div class="m"><b>Stal</b>tekst drugorzędny<span>#5B7083</span></div></div>
+    </div>
+
+    <div class="type">
+      <div class="card">
+        <b>Nagłówki — Space Grotesk</b>
+        <p>Charakter „strategiczno-techniczny", odrębny od konkurencji. Duże, pogrubione, w języku korzyści.</p>
+      </div>
+      <div class="card">
+        <b>Tekst — Inter</b>
+        <p>Czytelność i spokój. Ton: jasny, konkretny, „po ludzku" — klient w centrum („Ty", nie „my").</p>
+      </div>
+    </div>
+
+    <div class="grid g4" style="margin-top:14px">
+      <div class="card"><h3>Rezultat</h3><p>strona ma przynosić klientów</p></div>
+      <div class="card"><h3>Przejrzystość</h3><p>co, za ile, kiedy</p></div>
+      <div class="card"><h3>Rzemiosło</h3><p>wysoki poziom designu</p></div>
+      <div class="card"><h3>Bliskość</h3><p>jedna osoba, opieka</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 CO DALEJ -->
+<section class="alt">
+  <div class="wrap">
+    <p class="k">06 · Co dalej</p>
+    <h2>Jak to wdrażamy i mierzymy</h2>
+    <p class="sub">Strategia bez testu to hipoteza. Najpierw sprawdzamy popyt, potem skalujemy.</p>
+    <div class="ticks">
+      <div class="tick"><i>1</i><p><b>Walidacja popytu (W1–W3).</b> Przed pełnym brandingiem — realne rozmowy z potencjalnymi klientami i pre-sprzedaż: czy ktoś zapłaci za pakiet D.</p></div>
+      <div class="tick"><i>2</i><p><b>Landing MVP (W0).</b> Jedna strona z ofertą i audytem — punkt wejścia na rynek, zanim powstanie pełna witryna.</p></div>
+      <div class="tick"><i>3</i><p><b>Pierwsze case'y.</b> 2–3 projekty próbne w zamian za case + opinię — budowa dowodu „+% zapytań po nowej stronie".</p></div>
+      <div class="tick"><i>4</i><p><b>Pomiar efektu.</b> Raport konwersji po 30 dniach od startu — pokazujemy dane, nie tylko „ładny projekt".</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <b>Visual Label</b> — strategia marki · dokument dla klienta.<br>
+    Przygotowane metodą Brand Strategy OS · aktualizacja 2026-08-08 · status: walidacja popytu.<br>
+    To jest wersja prezentacyjna (decyzje + oferta). Szczegóły researchu i artefakty robocze — w osobnych plikach projektu.
+  </div>
+</footer>
+
+</body>
+</html>
