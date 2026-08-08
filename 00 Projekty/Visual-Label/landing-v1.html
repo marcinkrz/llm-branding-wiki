@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visual Label — Marka i strona, które przynoszą klientów</title>
+<meta name="description" content="Visual Label — studio z Rzeszowa. Strategia, identyfikacja wizualna i strony WordPress, które budują zaufanie i generują zapytania. Bezpłatny audyt marki.">
+<style>
+  :root{
+    --ink:#0e1b24; --steel:#5b7083; --volt:#c6f23e; --off:#f6f5f2; --white:#ffffff;
+    --rad-sm:4px; --rad-md:8px; --rad-lg:16px;
+    --sp-sm:8px; --sp-md:16px; --sp-lg:32px; --sp-xl:64px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--white);line-height:1.6;font-size:17px}
+  h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;letter-spacing:-0.02em;line-height:1.15}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+  section{padding:var(--sp-xl) 0}
+  h2{font-size:2rem;margin-bottom:var(--sp-md)}
+  h3{font-size:1.25rem;margin-bottom:var(--sp-sm)}
+  p{margin-bottom:var(--sp-md);color:var(--ink)}
+  .mut{color:var(--steel)}
+  .btn{display:inline-block;background:var(--volt);color:var(--ink);font-weight:700;text-decoration:none;padding:14px 26px;border-radius:var(--rad-md);font-size:.95rem;letter-spacing:.03em;text-transform:uppercase;transition:.15s}
+  .btn:hover{background:var(--ink);color:var(--white)}
+  .btn.dark{background:var(--ink);color:var(--white)}
+  .btn.dark:hover{background:var(--volt);color:var(--ink)}
+  /* NAV */
+  header{position:sticky;top:0;background:var(--off);border-bottom:1px solid #e6e2da;z-index:10}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:1.15rem;color:var(--ink);text-decoration:none}
+  .logo b{color:var(--ink)} .logo span{color:var(--ink);background:var(--volt);padding:1px 6px;border-radius:4px}
+  .nav a.ml{color:var(--ink);text-decoration:none;margin-left:20px;font-size:.9rem;font-weight:600}
+  /* HERO */
+  .hero{background:var(--off)}
+  .hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:var(--sp-xl);align-items:center}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.4rem);margin-bottom:var(--sp-md)}
+  .hero p.lead{font-size:1.15rem;color:var(--ink)}
+  .pain{list-style:none;margin:var(--sp-md) 0 var(--sp-lg)}
+  .pain li{padding:8px 0 8px 28px;position:relative;color:var(--ink)}
+  .pain li::before{content:"✕";position:absolute;left:0;color:var(--ink);font-weight:700}
+  .hero-tag{display:inline-block;background:var(--ink);color:var(--volt);font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:4px 12px;border-radius:var(--rad-sm);margin-bottom:var(--sp-md)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:var(--sp-md);margin-top:var(--sp-lg)}
+  .card{background:var(--white);border:1px solid #e6e2da;border-radius:var(--rad-lg);padding:var(--sp-lg)}
+  .card h3{font-size:1.05rem}
+  .card p{font-size:.95rem;color:var(--steel)}
+  /* CENNIK */
+  .price{background:var(--ink);color:var(--white)}
+  .price h2{color:var(--white)}
+  .price .mut{color:#a9b6c2}
+  .pkgs{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:var(--sp-md)}
+  .pkg{background:var(--off);border-radius:var(--rad-lg);padding:var(--sp-lg);color:var(--ink)}
+  .pkg.featured{background:var(--volt);color:var(--ink)}
+  .pkg h3{font-size:1.05rem;text-transform:uppercase;letter-spacing:.04em}
+  .price-val{font-family:"Space Grotesk",sans-serif;font-size:1.5rem;font-weight:700;margin:var(--sp-sm) 0}
+  .pkg ul{list-style:none;margin:var(--sp-md) 0;font-size:.9rem}
+  .pkg li{padding:4px 0 4px 22px;position:relative}
+  .pkg li::before{content:"✓";position:absolute;left:0;font-weight:700}
+  .pkg small{display:block;font-size:.8rem;opacity:.85}
+  /* PORTFOLIO */
+  .works{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:var(--sp-md)}
+  .work{background:var(--off);border-radius:var(--rad-lg);padding:var(--sp-lg);text-decoration:none;color:var(--ink)}
+  .work h3{font-size:1.1rem}
+  .work .tag{display:inline-block;font-size:.72rem;background:var(--ink);color:var(--volt);padding:2px 8px;border-radius:var(--rad-sm);margin-bottom:var(--sp-sm);text-transform:uppercase;letter-spacing:.05em}
+  /* AUDYT */
+  .audit{background:var(--off)}
+  .form{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-md);max-width:640px}
+  .form .full{grid-column:1 / -1}
+  .form input,.form textarea{width:100%;border:1px solid #d8d2c6;border-radius:var(--rad-md);padding:12px 14px;font:inherit;background:var(--white)}
+  .form label{font-size:.85rem;font-weight:600;display:block;margin-bottom:4px}
+  /* FAQ */
+  details{background:var(--white);border:1px solid #e6e2da;border-radius:var(--rad-md);padding:14px 18px;margin-bottom:var(--sp-sm)}
+  summary{font-weight:600;cursor:pointer}
+  details p{margin:var(--sp-sm) 0 0;font-size:.95rem}
+  footer{background:var(--ink);color:#a9b6c2;padding:var(--sp-lg) 0;font-size:.9rem}
+  footer a{color:var(--volt);text-decoration:none}
+  @media(max-width:760px){.hero .wrap{grid-template-columns:1fr}.form{grid-template-columns:1fr}}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#">Visual <span>Label</span></a>
+    <nav>
+      <a class="ml" href="#co">Co robimy</a>
+      <a class="ml" href="#cennik">Cennik</a>
+      <a class="ml" href="#realizacje">Realizacje</a>
+      <a class="ml" href="#audyt">Bezpłatny audyt</a>
+    </nav>
+  </div>
+</header>
+
+<!-- 1. HERO -->
+<section class="hero" id="start">
+  <div class="wrap">
+    <div>
+      <div class="hero-tag">Studio marki i stron · Rzeszów / zdalnie cała Polska</div>
+      <h1>Marka i strona, które przynoszą klientów — nie tylko ładnie wyglądają.</h1>
+      <p class="lead">Strategia + identyfikacja wizualna + strona WordPress, które budują zaufanie i generują zapytania. Po ludzku: wiesz, co dostaniesz, za ile i kiedy.</p>
+      <ul class="pain">
+        <li>Mam stronę, ale telefon milczy?</li>
+        <li>Nie wiem, ile to ma kosztować — wyceny różnią się 10×?</li>
+        <li>Boję się przepalić budżet na „ładny projekt", który nic nie da?</li>
+        <li>Nie chcę trafić na kogoś, kto zniknie po wdrożeniu.</li>
+      </ul>
+      <a class="btn" href="#audyt">Pobierz bezpłatny audyt</a>
+    </div>
+    <div class="card" style="background:var(--ink);color:var(--white)">
+      <p class="mut" style="color:#a9b6c2">Jak pracuję</p>
+      <h3 style="color:var(--volt)">1. Audyt marki i strony</h3>
+      <p style="color:var(--white)">Mówię, gdzie tracisz zapytania i co da najwięcej. Bez zobowiązań.</p>
+      <h3 style="color:var(--volt)">2. Strategia i kierunek</h3>
+      <p style="color:var(--white)">Co dokładnie zrobimy, za ile i kiedy — czarno na białym.</p>
+      <h3 style="color:var(--volt)">3. Marka + strona + opieka</h3>
+      <p style="color:var(--white)">Wdrażam, mierzę efekt i nie znikam po zakończeniu.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 2. CO ROBIMY -->
+<section id="co">
+  <div class="wrap">
+    <h2>Trzy rzeczy, które robię dla Twojej firmy</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Strategia marki</h3>
+        <p>Diagnoza, pozycjonowanie i jasny przekaz — zanim ruszy design. Wiesz, kim jesteś i dlaczego klient ma wybrać Ciebie.</p>
+      </div>
+      <div class="card">
+        <h3>Marka / identyfikacja wizualna</h3>
+        <p>Logo, kolory, typografia i materiały. Pełne pliki i prawa — Twoja marka należy do Ciebie, nie do wykonawcy.</p>
+      </div>
+      <div class="card">
+        <h3>Strony i sklepy WordPress</h3>
+        <p>Strona, która konwertuje, albo prosty sklep WooCommerce. Szybko, mobilnie, z podstawowym SEO i analityką.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. CENNIK -->
+<section class="price" id="cennik">
+  <div class="wrap">
+    <h2>Cennik — pakiety. Wiesz, co dostajesz.</h2>
+    <p class="mut" style="color:#a9b6c2">Ceny netto, „od …" — dokładna wycena po bezpłatnym audycie. Płatność 50/50, pełne pliki i prawa po zapłacie.</p>
+    <div class="pkgs">
+      <div class="pkg">
+        <h3>A. Audyt i strategia</h3>
+        <div class="price-val">Audyt gratis · 3–6 tys. zł</div>
+        <ul><li>Bezpłatny audyt — gdzie tracisz zapytania</li><li>Diagnoza, pozycjonowanie, kierunek</li><li>Warsztat + plan wdrożenia</li></ul>
+        <small>1–2 tygodnie</small>
+      </div>
+      <div class="pkg">
+        <h3>B. Marka / identyfikacja</h3>
+        <div class="price-val">6–12 tys. zł</div>
+        <ul><li>Strategia + 2–3 koncepcje logo</li><li>Paleta, typografia, podstawowe materiały</li><li>Mini-brandbook + pełne pliki i prawa</li></ul>
+        <small>3–5 tygodni</small>
+      </div>
+      <div class="pkg">
+        <h3>C. Strona / sklep WP</h3>
+        <div class="price-val">4–15 tys. zł</div>
+        <ul><li>Wizytówka 4–7 tys. · firmowa/sklep 8–15 tys.</li><li>Teksty, projekt, wdrożenie WordPress/WooCommerce</li><li>SEO-podstawy, analytics, szkolenie z obsługi</li></ul>
+        <small>2–6 tygodni</small>
+      </div>
+      <div class="pkg featured">
+        <h3>D. START — marka + strona</h3>
+        <div class="price-val">12–22 tys. zł</div>
+        <ul><li>Strategia + identyfikacja + strona — jeden spójny przekaz</li><li>Pomiar efektu: raport konwersji po 30 dniach</li><li>Priorytet terminu</li></ul>
+        <small>4–8 tygodni · najczęściej wybierany</small>
+      </div>
+      <div class="pkg">
+        <h3>E. Opieka / retainer</h3>
+        <div class="price-val">0,8–2 tys. zł/mc</div>
+        <ul><li>Utrzymanie, aktualizacje, monitoring</li><li>Drobne zmiany i wsparcie</li><li>Raport — nie znikam po wdrożeniu</li></ul>
+        <small>umowa miesięczna</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. REALIZACJE -->
+<section id="realizacje">
+  <div class="wrap">
+    <h2>Realizacje</h2>
+    <div class="works">
+      <a class="work" href="https://okna-tomaszow.pl" target="_blank" rel="noopener">
+        <span class="tag">Strona www</span>
+        <h3>Okna Tomaszów</h3>
+        <p class="mut">Strona internetowa / wizytówka usług stolarsko-okiennych.</p>
+      </a>
+      <a class="work" href="https://gutekilutek.pl" target="_blank" rel="noopener">
+        <span class="tag">Sklep internetowy</span>
+        <h3>Gutek i Lutek</h3>
+        <p class="mut">Sklep internetowy (WordPress/WooCommerce).</p>
+      </a>
+      <div class="work">
+        <span class="tag">Logotypy</span>
+        <h3>Identyfikacje dla klientów</h3>
+        <p class="mut">Logotypy i materiały znakowe — 15 lat praktyki projektowej i wykonawczej.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. AUDYT -->
+<section class="audit" id="audyt">
+  <div class="wrap">
+    <h2>Bezpłatny audyt: gdzie tracisz zapytania?</h2>
+    <p>Umów 30 minut online lub telefonicznie. Pokażę Ci 10 konkretnych punktów, które zabierają Ci klientów — i co da najwięcej. Bez zobowiązań.</p>
+    <form class="form" action="mailto:kontakt@visuallabel.pl" method="post" enctype="text/plain">
+      <div><label for="n">Imię i nazwisko</label><input id="n" name="Imię" required placeholder="Jan Kowalski"></div>
+      <div><label for="f">Firma</label><input id="f" name="Firma" placeholder="Nazwa firmy"></div>
+      <div class="full"><label for="e">E-mail</label><input id="e" name="E-mail" type="email" required placeholder="jan@firma.pl"></div>
+      <div class="full"><label for="m">Co Cię boli? (opcjonalnie)</label><textarea id="m" name="Wiadomość" rows="3" placeholder="Np. „mam stronę, ale nie przynosi zapytań"…"></textarea></div>
+      <div class="full"><button class="btn" type="submit">Wyślij — audyt gratis</button></div>
+    </form>
+  </div>
+</section>
+
+<!-- 6. FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <h2>Częste pytania</h2>
+    <details><summary>Ile kosztuje logo / strona?</summary><p>Logo wchodzi w pakiet Marka (6–12 tys. zł). Strona-wizytówka od 4 tys., sklep od 8 tys. Dokładną wycenę dostajesz po bezpłatnym audycie — bez niespodzianek.</p></details>
+    <details><summary>Ile trwa realizacja?</summary><p>Strategia: 1–2 tyg. Marka: 3–5 tyg. Strona/sklep: 2–6 tyg. Pełny pakiet START: 4–8 tyg. Terminy są w umowie.</p></details>
+    <details><summary>Czy dostanę pliki i prawa?</summary><p>Tak. Po zapłacie otrzymujesz pełne pliki wektory, dokumentację i prawa do Twojej marki i strony.</p></details>
+    <details><summary>WordPress czy gotowy kreator?</summary><p>WordPress — Twoja strona jest Twoja (pliki, hosting, pełna kontrola) i może rosnąć (sklep, blog, integracje). Kreatory zostawiają Cię u wynajmującego.</p></details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b style="color:var(--white)">Visual Label</b> · studio marki i stron internetowych · Rzeszów / zdalnie: cała Polska</p>
+    <p>Kontakt: <a href="mailto:kontakt@visuallabel.pl">kontakt@visuallabel.pl</a> · tel. (+48) 000 000 000 ·<a href="#audyt"> Bezpłatny audyt</a></p>
+    <p style="margin:0">© 2026 Visual Label. Wszystkie realizacje są własnością ich właścicieli.</p>
+  </div>
+</footer>
+
+</body>
+</html>
