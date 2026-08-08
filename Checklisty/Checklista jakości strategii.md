@@ -8,6 +8,10 @@ aktualizacja: 2026-08-07
 
 *Wypełnij po zakończeniu pracy nad strategią. Jeśli jakiekolwiek pole jest NIE — strategia nie jest gotowa: wróć i popraw.*
 
+## Warunek wejścia (sprawdź NAJPIERW)
+- [ ] **Odbyło się discovery** (kwestionariusz/rozmowa z klientem) — strategia NIE jest zbudowana na samych hipotezach.
+- [ ] Jeśli działałeś na hipotezach (brak danych) — są one jawnie oznaczone `H1..Hn` i zaplanowana jest walidacja przed wdrożeniem.
+
 ## Fundamenty
 - [ ] Znamy **segment** docelowy (konkretny, nie „wszyscy").
 - [ ] Decyzje oparte na danych (fakty mają źródła), nie na opinii.

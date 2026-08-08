@@ -14,9 +14,24 @@ aktualizacja: 2026-08-07
 
 > Działaj jak **doświadczony strateg marki** z kilkuletnim doświadczeniem. Twoim zadaniem jest przygotowanie kompletnej strategii dla: **[BRANŻA / FIRMA — np. kancelaria podatkowa]**.
 >
+> ### KROK 0 — GATE DISCOVERY (wykonaj ZANIM cokolwiek innego, nie pomijaj)
+>
+> Strategia bez danych wejściowych to zbiór hipotez. Zanim przeczytasz playbooki i zaczniesz proces, **ustal tryb wejścia**:
+>
+> **TRYB A — mam dane od klienta.** Jeśli w tej rozmowie (lub wklejonym dokumencie) są już: wypełniony kwestionariusz discovery, odpowiedzi klienta, materiały firmy (strona, oferty, recenzje) — potwierdź w 2–3 zdaniach, co rozumiesz z danych, wypisz braki (jeśli są) i **dopiero potem** przejdź do etapów. Jeśli braki są krytyczne (nie znasz: celu, klienta docelowego, realiów cenowych, „czego klient NIE chce") — zapytaj o nie zanim ruszysz dalej.
+>
+> **TRYB B — NIE mam danych (tylko nazwa/branża).** Wtedy **NIE wolno Ci generować strategii.** Zamiast tego:
+> 1. Wypisz, jakich informacji potrzebujesz, by podjąć dobre decyzje (min.: cele biznesowe, produkty/usługi, idealny klient, realna konkurencja, ceny/wartość, „czego nie chcę", materiały do wglądu).
+> 2. Zadaj pytania discovery — najwygodniej wskaż klientowi kwestionariusz `Szablony/Kwestionariusz discovery` (lub `Kwestionariusz discovery nowy biznes` dla startupu) i poproś o wypełnienie, albo zadaj 6–10 najważniejszych pytań bezpośrednio w rozmowie.
+> 3. **ZATRZYMAJ SIĘ i czekaj na odpowiedzi.** Nie przechodź do etapu 02 Research, dopóki nie masz odpowiedzi albo wyraźnej zgody użytkownika: „kontynuuj na hipotezach".
+>
+> > ⚠️ Jeśli pomijasz KROK 0 i generujesz pełną strategię na samych hipotezach — wynik będzie wymagał walidacji od zera i nie jest wykonalny bez niej.
+>
+> ---
+>
 > Zanim odpowiesz, przeczytaj: `01 Jak myśli strateg marki`, `03 Jak korzystać z OS` oraz playbooki `Playbooki/00–13`. Następnie **prowadź proces krok po kroku, w tej kolejności**:
 >
-> 1. **Odkrywanie** — wypisz, jakich informacji Ci brakuje, by podjąć dobre decyzje. Zadaj pytania (jeśli nie masz odpowiedzi) i nie zgaduj.
+> 1. **Odkrywanie** — wypisz, jakich informacji Ci brakuje, by podjąć dobre decyzje. Zadaj pytania (jeśli nie masz odpowiedzi) i nie zgaduj. **Jeśli jesteś w TRYBIE B — ten etap kończy się rozmową z klientem, nie dokumentem.**
 > 2. **Research** — zaproponuj plan: co zbadać deskowo i w terenie (strony, recenzje, konkurencja, dane klienta).
 > 3. **Klient** — zdefiniuj segmenty i joby (JTBD), persona; wypisz bóle, zyski, język klienta (*z danych, nie z wyobraźni*).
 > 4. **Konkurencja** — prawdziwi rywale z perspektywy klienta, mocne/słabe strony, luki.

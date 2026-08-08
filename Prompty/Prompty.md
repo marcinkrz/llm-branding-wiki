@@ -11,7 +11,8 @@ aktualizacja: 2026-08-07
 
 | Prompt | Do czego |
 |---|---|
-| [[Prompty/Master prompt strategia\|Master prompt strategia]] | Pełny proces od zlecenia do strategii (dla dowolnej branży) |
+| [[Prompty/Master prompt strategia\|Master prompt strategia]] | Pełny proces od zlecenia do strategii — **z gate'm discovery** (tryb A: masz dane / tryb B: agent pyta) |
+| [[Prompty/Master prompt z danymi klienta\|Master prompt z danymi klienta]] | Gdy **masz wypełniony kwestionariusz/materiały klienta** — wklejasz dane razem z promptem, agent buduje z faktów |
 | **Etapowe (01–13)** | Praca iteracyjna: agent prowadzi TYLKO jeden etap, pyta, dostarcza artefakt |
 | → [[Prompty/Etap 01 Odkrywanie\|01 Odkrywanie]] | Brief, założenia-hipotezy, plan researchu |
 | → [[Prompty/Etap 02 Research\|02 Research]] | Plan i porządkowanie badania (fakty vs. opinie) |
@@ -29,11 +30,22 @@ aktualizacja: 2026-08-07
 
 ## Jak używać
 
-**Opcja A — całość naraz:** skopiuj [[Prompty/Master prompt strategia|master prompt]] i wstaw nazwę branży/klienta. Agent przejdzie przez cały proces.
+Masz **trzy ścieżki** — wybierz według tego, ile danych masz na starcie:
 
-**Opcja B — etapami (zalecane przy dużej strategii):** zacznij od [[Prompty/Etap 01 Odkrywanie|etapu 01]], po każdym etapie weryfikuj wynik, potem przejdź do następnego (linki „Użyj dalej" na dole każdego prompta).
+**Ścieżka 1 — masz dane klienta (ZALECANA dla realnego zlecenia).**
+Klient wypełnił kwestionariusz discovery / masz notatki z rozmowy / materiały firmy.
+→ Użyj [[Prompty/Master prompt z danymi klienta|master prompta z danymi klienta]] i **wklej dane razem z promptem**. Agent buduje z faktów, pyta tylko o krytyczne braki.
+
+**Ścieżka 2 — nie masz danych, chcesz całość naraz.**
+→ Użyj [[Prompty/Master prompt strategia|master prompta]] (tryb B). Agent ma teraz **gate discovery**: wypisze braki, zada pytania i **zatrzyma się** do Twojej odpowiedzi, zanim zacznie generować.
+
+**Ścieżka 3 — etapami (największa kontrola, do dużej strategii).**
+→ Zacznij od [[Prompty/Etap 01 Odkrywanie|etapu 01]], po każdym etapie weryfikuj wynik, potem przechodź dalej (linki „Użyj dalej"). Każdy prompt etapowy sam wymusza pętlę pytań.
+
 1. Agent powinien najpierw przeczytać [[01 Jak myśli strateg marki]] i [[03 Jak korzystać z OS]].
 2. Na końcu zweryfikuj [[Checklisty/Checklista jakości strategii|checklistą jakości]] i [[Checklisty/Checklista wdrożenia|wdrożenia]].
+
+> **Lekcja z praktyki (2026-08):** master prompt *bez* gate'u discovery przeszedł cały proces bez zadania pytań i wygenerował strategię na samych hipotezach. Dlatego ścieżka 1 (dane na wejściu) daje najlepszy wynik — zob. [[Audyt Brand Strategy OS]].
 
 ## Zasady budowy prompty
 - Prompt definiuje **proces**, nie wynik „od razu".
