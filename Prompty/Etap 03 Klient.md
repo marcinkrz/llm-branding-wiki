@@ -20,10 +20,17 @@ aktualizacja: 2026-08-07
 > 2. **Uporządkuj** dane: joby (zadania), bóle, zyski — techniką JTBD (konkretne sytuacje, nie opinie).
 > 3. **Znajdź wzorce**: powtarzające się joby/bóle → wstępne segmenty.
 > 4. Zbuduj **personę(y)** wg wzorca (nie wyobraźni) — [[Szablony/Persona klienta|szablon persony]].
-> 5. Wypisz **język klienta** (cytaty) — do later komunikacji.
+> 5. Wypisz **język klienta** (cytaty) — do późniejszej komunikacji.
 > 6. Podaj **profile klienta/segmenty** (job-based) + listę tego, czego *nie wiemy*.
 >
 > **Zasady:** dane, nie wyobraźnia (persona „Marek, 35 lat, lubi kawę" = błąd); pytania o zachowania, nie preferencje; pamiętaj o alternatywach (w tym „zrobię sam").
+>
+> **Jeśli klient NIE ma jeszcze klientów (startup / nowy biznes)** — przestaw się na wariant z playbooka 03:
+> - Wywiady z **potencjalnymi** klientami (grupa docelowa) o ich OBECNYM zachowaniu (jak dziś rozwiązują problem, frustracje, alternatywy).
+> - Zbierz **recenzje konkurencji** (Google/Ceneo/social) — to gotowy VoC (bóle, czego brakuje).
+> - Analizy komunikatów konkurencji + analogie z innych kategorii.
+> - Założenia założyciela traktuj jako **hipotezy**; segment jako TYMCZASOWY (do walidacji).
+> - Wskaż jawnie w wynikach, co jest danymi, a co hipotezą (nie udawaj pewności).
 
 ## Wejście
 - Dane surowe z researchu ([[Prompty/Etap 02 Research|etap 02]]), opinie, ankiety ode mnie.

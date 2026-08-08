@@ -36,6 +36,12 @@ aktualizacja: 2026-08-07
 > - Używaj **języka klienta** (cytaty), nie marketingu z podręcznika.
 > - Każdą decyzję strategiczną uzasadnij (dlaczego to, a nie alternatywa).
 > - Na końcu dostarcz: pozycjonowanie, UVP, komunikację, StoryBrand, ofertę, stronę, plan contentu, kierunek ID, checklistę wdrożenia.
+>
+> **Jeśli klient NIE ma jeszcze klientów (startup / nowy biznes):**
+> - Research klienta prowadź w wariancie „nowy biznes": wywiady z **potencjalnymi** klientami, **recenzje konkurencji** jako VoC, komunikaty konkurencji, analogie.
+> - Research konkurencji wykonuj **sam, wyszukując w Internecie** (strony, ceny, recenzje, social) — oprócz listy od klienta (którą też zbierz).
+> - Wszystkie założenia (segment, przewaga, kim jest klient) oznacz jako **hipotezy do walidacji**; segment traktuj jako tymczasowy.
+> - Postaw na **szybką walidację** (czy problem realny / czy zapłacą) przed pełną strategią wizualną.
 
 ---
 

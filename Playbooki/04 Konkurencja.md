@@ -31,6 +31,18 @@ Poznać, **o kogo i o co** konkurujemy — nie wg firmy, lecz wg perspektywy kli
 5. **Znajdź luki**: co klient kwestionuje w ofertach rywali (recenzje, wywiady).
 6. **Oceń**, czy luka jest realna (klienci by nią pogardzili?) — nie tylko „nikt tego nie robi".
 
+### Research konkurencji przez agenta (LLM + Internet)
+
+> Agent może i powinien wykonać **większość researchu konkurencji sam**, wyszukując publicznych informacji w Internecie (to dane otwarte: strony, cenniki, komunikaty, recenzje, social). Klient dodaje **swoje przykłady** konkurencji (które zna z rynku/terenu) — lista z Internetu + lista od klienta łączą się.
+
+1. **Agent wyszukuje**: strony konkurentów, cenniki, opisy usług, media społecznościowe, recenzje (Google Maps, Ceneo/Opineo, opinie), wzmianki, pozycje w wyszukiwarce, reklamy.
+2. **Klient dodaje**: kogo sam zna, kogo „widzi na co dzień", kto mu zabiera zlecenia, kogo klienci wymieniają jako alternatywę (to dane, których nie znajdziesz w Google).
+3. **Krzyżuj dane**: lista agenta (szersza, zewnętrzna) + lista klienta (bliższa, terenowa) → razem dają pełny obraz.
+4. **Zaznacz źródła**: co pochodzi z wyszukiwania, co od klienta (różne pewność).
+5. **Uwaga na „dane, których nie widać"**: klient zna zamienniki i status quo lepiej niż agent — jego input nie jest opcjonalny, tylko uzupełniający.
+
+**Podział pracy:** agent = wykrywanie, porządkowanie, profilowanie (skala). Klient = walidacja, kontekst, „kogo faktycznie przegrywam". Nie zastępuj klienta — pytaj go lista od początku ([[Prompty/Etap 04 Konkurencja|prompt 04]] prowadzi to automatycznie).
+
 ## Narzędzia (frameworki)
 - [[Frameworki/05 Market Positioning Canvas|Market Positioning Canvas]] — dobór rywali + przewaga.
 - [[Frameworki/04 Pozycjonowanie Ries Trout|Ries & Trout]] — kategoryzacja umysłu klienta.
