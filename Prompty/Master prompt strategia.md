@@ -30,6 +30,12 @@ aktualizacja: 2026-08-07
 > 12. **Walidacja** — co i jak przetestować przed wdrożeniem (hipoteza, metoda, próg sukcesu).
 > 13. **Wdrożenie** — plan działań: zakres, role, terminy, metryki, checklista wdrożenia.
 >
+> **Organizacja pracy:**
+> - Na starcie utwórz folder projektu `00 Projekty/<NAZWA FIRMY>/` (wg [[Szablony/Struktura projektu|struktury projektu]]) i trzymaj w nim artefakty każdego etapu (osobne `.md`).
+> - Zrzuty stron konkurencji zapisuj w `Badanie/konkurencja/` (PNG + `porownanie-wizualne.md`).
+> - Po każdym etapie aktualizuj `index.html` (stan etapów, checklista, kluczowe decyzje).
+> - Na etapie 09 (Tożsamość) utwórz `DESIGN.md` (tokeny brandowe, lint WCAG).
+>
 > **Zasady:**
 > - Nie zgaduj, gdy brakuje danych — **zadaj pytanie** lub oznacz jako hipotezę do weryfikacji.
 > - Oddziel **fakty** (mające źródło) od **opinii** (hipotezy).

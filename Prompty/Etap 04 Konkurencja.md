@@ -23,7 +23,8 @@ aktualizacja: 2026-08-07
 > 3. Sporządź profil każdego rywala: przekaz, ceny, mocne/słabe strony (ze źródeł: strony/recenzje — oznacz, co z Internetu, co od klienta), wyróżniki.
 > 4. Zbuduj **mapę konkurencji** (2 wymiary decydujące dla klienta).
 > 5. Znajdź **luki** — co klienci kwestionują u rywali (recenzje, wywiady); oceń, czy luka jest realna (chcą ją?).
-> 6. Podaj: mapa + lista rywali (ze źródłami) + luki do rozważenia w pozycjonowaniu.
+> 6. **Zrób zrzuty ekranu** stron głównych kluczowych rywali i zapisz je w folderze projektu `Badanie/konkurencja/` (PNG, nazwa `numer-Nazwa-rywala.png`). Obok przygotuj `porownanie-wizualne.md`: URL, data, look & feel (kolory, ton, układ, navi), wrażenie.
+> 7. Podaj: mapa + lista rywali (ze źródłami) + luki do rozważenia w pozycjonowaniu.
 >
 > **Zasady:**
 > - Wykonuj research sam w Internecie (mów jasno, co znalazłeś i skąd) — nie proś klienta, by dostarczył Ci gotowe profile konkurencji.

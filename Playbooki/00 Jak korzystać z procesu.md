@@ -44,6 +44,17 @@ Proces jest ułożony tak, jak pracuje strateg — od Odkrywania do Wdrożenia. 
 4. **Waliduj wcześnie** — lepiej wykryć błąd na etapie researchu niż pozycjonowania.
 5. **Działaj iteracyjnie** — wróć do wcześniejszego etapu, gdy pojawią się nowe dane.
 
+## Projekt i folder (standard)
+
+Każdy projekt zakłada folder `00 Projekty/<NAZWA FIRMY>/` (agent tworzy go automatycznie w etapie 01 — [[Szablony/Struktura projektu|struktura projektu]]):
+
+- Artefakty każdego etapu → osobne pliki `.md` (Brief, Persona, Pozycjonowanie, StoryBrand, Oferta, Tożsamość...).
+- Zrzuty stron konkurencji → `Badanie/konkurencja/` (PNG + `porownanie-wizualne.md`).
+- `index.html` — **przegląd projektu** (tekst + prosty CSS): stan etapów, checklista, kluczowe decyzje. **Aktualizuj po każdym etapie**.
+- `DESIGN.md` — tokeny brandowe (kolory, typografia), powstaje **dopiero na etapie 09** (Tożsamość), lint WCAG.
+
+> Zasada: folder nie jest „bałaganem" — każda nota ma miejsce. Przegląd w `index.html` pozwala zobaczyć cały projekt jednym rzutem oka.
+
 ## Wejście / wyjście całego procesu
 
 | Wejście | Wyjście |

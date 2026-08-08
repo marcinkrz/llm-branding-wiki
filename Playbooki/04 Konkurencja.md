@@ -41,7 +41,14 @@ Poznać, **o kogo i o co** konkurujemy — nie wg firmy, lecz wg perspektywy kli
 4. **Zaznacz źródła**: co pochodzi z wyszukiwania, co od klienta (różne pewność).
 5. **Uwaga na „dane, których nie widać"**: klient zna zamienniki i status quo lepiej niż agent — jego input nie jest opcjonalny, tylko uzupełniający.
 
-**Podział pracy:** agent = wykrywanie, porządkowanie, profilowanie (skala). Klient = walidacja, kontekst, „kogo faktycznie przegrywam". Nie zastępuj klienta — pytaj go lista od początku ([[Prompty/Etap 04 Konkurencja|prompt 04]] prowadzi to automatycznie).
+**Zrzuty ekranu konkurencji (do porównania wizualnego):**
+
+Dla każdego kluczowego rywala agent robi **zrzut strony głównej** i zapisuje w folderze projektu `Badanie/konkurencja/` jako plik PNG (nazwa: `numer-Nazwa-rywala.png`). Obok w `porownanie-wizualne.md` notuje: URL, datę, look&feel (kolory, ton, układ, navi), wrażenie. Cel: **materiał referencyjny** do porównania przy pozycjonowaniu (czy się wizualnie odróżniamy — [[Frameworki/49 Mapa percepcyjna|mapa]], [[Frameworki/38 Kolor w brandingu|distinctive assets]]) oraz do dyskusji z klientem (konkret, nie ogólnie).
+
+- Zrzut to **dane wewnętrzne analizy** (nie do powielania/reklamy) — oznacz folder jako „do analizy".
+- Jeśli zrzut strony się nie powiedzie (loginy, dynamiczne treści, blokada) — zapisz opis wyglądu/key elementów i zanotuj „zrzut niemożliwy, zapisano opis".
+
+**Podział pracy:** agent = wykrywanie, porządkowanie, profilowanie, zrzuty (skala). Klient = walidacja, kontekst, „kogo faktycznie przegrywam". Nie zastępuj klienta — pytaj go lista od początku ([[Prompty/Etap 04 Konkurencja|prompt 04]] prowadzi to automatycznie).
 
 ## Narzędzia (frameworki)
 - [[Frameworki/05 Market Positioning Canvas|Market Positioning Canvas]] — dobór rywali + przewaga.

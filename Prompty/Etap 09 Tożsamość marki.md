@@ -21,8 +21,9 @@ aktualizacja: 2026-08-07
 > 3. Określ **wartości komunikowane** (spójne z pozycją, nie „ściana wartości").
 > 4. Ustal **brand voice** (ton, słownictwo, czego unikamy) — z etapu 07.
 > 5. Wypisz **kierunek wizualny** (kolory, typografia, styl) jako BRIEF dla projektanta (nie gotowy projekt) — z [[Frameworki/38 Kolor w brandingu|koloru]]/[[Frameworki/39 Typografia w brandingu|typografii]].
-> 6. Ustal **architekturę marki** (jeśli portfolio) — Aaker.
-> 7. Podaj: essence + osobowość + voice + kierunek wizualny + architektura.
+> 6. Utwórz **DESIGN.md** — tokeny brandowe (kolory, typografia, skale, komponenty bazowe) w formacie spec `design.md`, lint WCAG (kontrast), zapisz w folderze projektu.
+> 7. Ustal **architekturę marki** (jeśli portfolio) — Aaker.
+> 8. Podaj: essence + osobowość + voice + kierunek wizualny + DESIGN.md + architektura.
 >
 > **Zasady:** tożsamość wynika ze strategii (nie z mody); to brief, nie design; każda decyzja ma uzasadnienie strategiczne.
 

@@ -27,8 +27,9 @@ Przełożyć pozycjonowanie na **tożsamość marki**: charakter, osobowość, w
 3. **Określ wartości, które mają być komunikowane** (spójne z pozycją, nie „ściana wartości").
 4. **Ustal brand voice** (ton, słownictwo, czego unikamy) — z [[Playbooki/07 Komunikacja|07]].
 5. **Zbuduj kierunek wizualny (moodboard)** — z decyzji strategicznych: [[Szablony/Moodboard kierunek wizualny|moodboard]]; kolory/typografia wg [[Frameworki/38 Kolor w brandingu|koloru]] i [[Frameworki/39 Typografia w brandingu|typografii]].
-6. **Ustal architekturę marki** (jeśli portfolio) — [[Frameworki/11 Model Aakera|Aaker]].
-7. **Zapisz brand guidelines** (osobowość + voice + kierunek wizualny).
+6. **Zapisz DESIGN.md** — tokeny brandowe z moodboardu (kolory, typografia, skale, komponenty bazowe) w formacie spec `design.md`. Lint WCAG (kontrast). To most do projektanta/developera ([[Szablony/Struktura projektu|struktura projektu]]).
+7. **Ustal architekturę marki** (jeśli portfolio) — [[Frameworki/11 Model Aakera|Aaker]].
+8. **Zapisz brand guidelines** (osobowość + voice + kierunek wizualny + DESIGN.md).
 
 ## Narzędzia (frameworki)
 - [[Frameworki/11 Model Aakera|Model Aakera]] — tożsamość i architektura.

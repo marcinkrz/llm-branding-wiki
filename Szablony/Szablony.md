@@ -13,6 +13,7 @@ aktualizacja: 2026-08-07
 |---|---|---|
 | [[Szablony/Kwestionariusz discovery\|Kwestionariusz discovery]] | 01 Odkrywanie | Pytania do klienta na start (ma klientów) |
 | [[Szablony/Kwestionariusz discovery nowy biznes\|Kwestionariusz — nowy biznes]] | 01 Odkrywanie | Pytania gdy klient nie ma jeszcze klientów |
+| [[Szablony/Struktura projektu\|Struktura projektu]] | cały os (01+) | Standard folderu projektu + index.html + DESIGN.md |
 | [[Szablony/Warsztat strategiczny\|Warsztat strategiczny]] | 01/06/09 | Agenda warsztatu z klientem |
 | [[Szablony/Brief kreatywny\|Brief kreatywny]] | 01/09/10 | Punkt wyjścia dla projektanta |
 | [[Szablony/Persona klienta\|Persona klienta]] | 03 Klient | Profil segmentu |
